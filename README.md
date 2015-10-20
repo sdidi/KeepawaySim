@@ -7,7 +7,7 @@ The simulator contains two packages:
 1) RoboCup Server C# Implementation 
 	-This is the Server origionally designed by Peter Stone and modified by Phillip Verbancsics. 
 2) RoboCup Keepaway Experiment adapted from Phillip Verbancsics
-	-This is the Keepaway task implemented on the above RoboCup Server. It has been modified to suit our experiment by adding parameters and methods for behavior characterisation and 
+	-This is the Keepaway task implemented on the above RoboCup Server. It has been modified to suit our experiment by adding parameters and methods for behavior and 
 	genotype characterisation. 
 	
 The following shows files with parameters for the experiment :

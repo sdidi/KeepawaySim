@@ -7,12 +7,12 @@ The simulator contains two packages:
 1) RoboCup Server C# Implementation 
 	-This is the Server origionally designed by Peter Stone and modified by Phillip Verbancsics. 
 2) RoboCup Keepaway Experiment adapted from Phillip Verbancsics
-	-This is the Keepaway task implemented on the above RoboCup Server. It has been modified to suit our experiment by adding parameters and methods for behavior and 
+	-This is the Keepaway task implemented on the above RoboCup Server. It has been modified to suit our experiment by adding parameters and methods for policy transfer, behavior and 
 	genotype characterisation. 
 	
 The following shows files with parameters for the experiment :
 
--mutation.xml, parameters.xml, initialisation.xml, reproduction.xml, saving.xml, speciation.xml, Testing.xml, KeepawayConfig.xml and HyperNEAT.xml. 
+-mutation.xml, initialisation.xml, reproduction.xml, saving.xml, speciation.xml and KeepawayConfig.xml.
 
 To run the simulation, open the Executables folder and run Keepaway.exe file or using Visual Studio open RoboCup.sln file and run Keepaway project.
 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mutation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Recurrence>false</Recurrence>
+  <AddNode>0.05</AddNode>
+  <KeepLinkOnAddNode>0.2</KeepLinkOnAddNode>
+  <ChangeNodeFunction>0.0</ChangeNodeFunction>
+  <FunctionProbabilities>
+    <FunctionMutation Function="Identity" Probability="0" />
+    <FunctionMutation Function="Reciprocal" Probability="0.005" />
+    <FunctionMutation Function="SingleStep" Probability="0.1" />
+    <FunctionMutation Function="BipolarSigmoid" Probability="0.3" />
+    <FunctionMutation Function="Gaussian" Probability="0.39" />
+    <FunctionMutation Function="AbsoluteValue" Probability="0.1" />
+    <FunctionMutation Function="Ramp" Probability="0.005" />
+    <FunctionMutation Function="Sine" Probability="0.1" />
+  </FunctionProbabilities>
+  <AddConnection>0.15</AddConnection>
+  <DeleteConnection>0.05</DeleteConnection>
+  <MutateWeights>0.8</MutateWeights>
+  <WeightProbabilities>
+    <WeightMutation Normal="true" Delta="true" Proportional="true" Amount="1" Probability="0.25" />
+    <WeightMutation Normal="true" Delta="true" Proportional="true" Amount="0.25" Probability="0.25" />
+    <WeightMutation Normal="false" Delta="false" Proportional="false" Amount="2" Probability="0.1" />
+    <WeightMutation Normal="false" Delta="true" Proportional="false" Amount="2" Probability="0.4" />
+  </WeightProbabilities>
+  <WeightRange>10</WeightRange>
+</Mutation>

@@ -1,0 +1,47 @@
+<Root>
+  <ActivationFunctions>
+    <Fn id="0" name="SteepenedSigmoid" prob="1" />
+  </ActivationFunctions>
+  <Networks>
+    <Network id="12320" birthGen="0" fitness="0.481" realFitness="0.481" novelty="0.388" diversity="0.23983672345019">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="85" />
+        <Node type="hid" id="107" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="0.502093917450968" />
+        <Con id="27" src="3" tgt="15" wght="3.7155099613658322" />
+        <Con id="30" src="4" tgt="15" wght="-1.0284961868532221" />
+        <Con id="57" src="13" tgt="15" wght="-0.27690664314492697" />
+        <Con id="71" src="1" tgt="14" wght="0.2206133543003635" />
+        <Con id="72" src="15" tgt="16" wght="2.2729019820867817" />
+        <Con id="73" src="12" tgt="15" wght="1.5018503808464099" />
+        <Con id="76" src="15" tgt="14" wght="-3.5188956747833591" />
+        <Con id="86" src="11" tgt="85" wght="-1.3868424724041273" />
+        <Con id="87" src="85" tgt="14" wght="2.1442664793475381" />
+        <Con id="96" src="13" tgt="14" wght="0.92432129932826124" />
+        <Con id="97" src="8" tgt="14" wght="2.4573467140410448" />
+        <Con id="108" src="13" tgt="107" wght="-0.89733073537451624" />
+        <Con id="109" src="107" tgt="14" wght="0.58698536182339911" />
+        <Con id="129" src="107" tgt="15" wght="-0.92368504838151733" />
+      </Connections>
+    </Network>
+  </Networks>
+</Root>

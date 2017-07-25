@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<KPConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Num_Keepers>4</Num_Keepers>
+  <Num_Takers>3</Num_Takers>
+  <Num_Trials>5</Num_Trials>
+  <FieldX>20</FieldX>
+  <FieldY>20</FieldY>
+</KPConfig>

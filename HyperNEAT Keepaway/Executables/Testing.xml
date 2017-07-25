@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Testing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Genome test="false" path="Genome.xml" />
+  <Directory test="false" path="Champs\" />
+  <ChampionsAtEnd test="true" path="Champs\" />
+</Testing>

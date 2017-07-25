@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<KPExperimentConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <num_Keepers>4</num_Keepers>
+  <num_Takers>3</num_Takers>
+  <num_Generations>100</num_Generations>
+  <trials_per_Evaluation>30</trials_per_Evaluation>
+  <scalarizer>0.5</scalarizer>
+  <disjoint_Coeff>1</disjoint_Coeff>
+  <weight_Coeff>3</weight_Coeff>
+  <excess_Coeff>1</excess_Coeff>
+  <funct_Coeff>1</funct_Coeff>
+  <adaptation_Method>3</adaptation_Method>
+  <nearestNeighbors>15</nearestNeighbors>
+  <archiveLimit>10</archiveLimit>
+  <archiveSize>1000</archiveSize>
+  <archiveThreshold>0.03</archiveThreshold>
+  <fieldX>20</fieldX>
+  <fieldY>20</fieldY>
+  <description>
+    Keepaway evolution    
+    Increase complexity by increasing the number of Agents e.g from 4vs3 to 5vs4 (Keeper vs Taker setup).     
+    There are 5 variants of methods to adapt the evolutionary search : 
+    1. Objective-Based Search - uses average hold time in secs over 30 episodes
+    2. Novelty Search - uses behavioral diversity , measured on 3 behavior characterising properties
+       - average number of passes, average dispersion of team members and average distance of ball 
+       from center of field of play
+    3. NS-Hybrid (Novelty + Objective-Based) Search
+    4. Genotypic Diversity maintanance Search - It uses compatibility distance measure 
+    5. GD-Hybrid (Genotypic Diversity + Objective-Based) Search
+    RealFitness is the average hold time defined per genome (over 30 episodes , i.e 30 trials_per_Evaluation)
+  </description>
+</KPExperimentConfig>

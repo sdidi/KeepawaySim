@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NetworkGenome xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3878" Fitness="0.9093280162911842" Novelty="0.022433908545895689" RealFitness="0.9093280162911842" Genotypic_Diversity="0.26314357465783023" Complexity="27" Age="1" Parent1="3752" Parent2="-1" Species="31">
+  <Nodes>
+    <NodeGene Id="0" Type="Bias" Function="Identity" Layer="0" Fixed="false" />
+    <NodeGene Id="1" Type="Input" Function="Identity" Layer="0" Fixed="false" />
+    <NodeGene Id="2" Type="Input" Function="Identity" Layer="0" Fixed="false" />
+    <NodeGene Id="3" Type="Input" Function="Identity" Layer="0" Fixed="false" />
+    <NodeGene Id="4" Type="Input" Function="Identity" Layer="0" Fixed="false" />
+    <NodeGene Id="5" Type="Output" Function="BipolarSigmoid" Layer="4" Fixed="false" />
+    <NodeGene Id="6" Type="Output" Function="BipolarSigmoid" Layer="4" Fixed="false" />
+    <NodeGene Id="7" Type="Hidden" Function="Gaussian" Layer="2" Fixed="false" />
+    <NodeGene Id="8" Type="Hidden" Function="Gaussian" Layer="2" Fixed="false" />
+  </Nodes>
+  <Links>
+    <LinkGene Id="0" Source="0" Target="5" Weight="3.2110574164269843" Fixed="false" />
+    <LinkGene Id="1" Source="0" Target="6" Weight="1.5017485802795014" Fixed="false" />
+    <LinkGene Id="2" Source="1" Target="5" Weight="-4.2048378015473871" Fixed="false" />
+    <LinkGene Id="3" Source="1" Target="6" Weight="-3.1953092570317172" Fixed="false" />
+    <LinkGene Id="4" Source="2" Target="5" Weight="2.5945476017154085" Fixed="false" />
+    <LinkGene Id="5" Source="2" Target="6" Weight="-3.4140145906424024" Fixed="false" />
+    <LinkGene Id="6" Source="3" Target="5" Weight="-0.56718700811160916" Fixed="false" />
+    <LinkGene Id="7" Source="3" Target="6" Weight="1.2471608902729474" Fixed="false" />
+    <LinkGene Id="8" Source="4" Target="5" Weight="3.9844101901586679" Fixed="false" />
+    <LinkGene Id="9" Source="4" Target="6" Weight="-3.7862936216437317" Fixed="false" />
+    <LinkGene Id="10" Source="1" Target="7" Weight="0.42163967015934584" Fixed="false" />
+    <LinkGene Id="11" Source="3" Target="7" Weight="1.5010380688827558" Fixed="false" />
+    <LinkGene Id="13" Source="4" Target="8" Weight="-2.1259887724625388" Fixed="false" />
+    <LinkGene Id="14" Source="7" Target="5" Weight="-0.83136970880800365" Fixed="false" />
+    <LinkGene Id="15" Source="8" Target="5" Weight="-1.0094126493491726" Fixed="false" />
+    <LinkGene Id="16" Source="0" Target="7" Weight="-1.9607568432533966" Fixed="false" />
+    <LinkGene Id="17" Source="0" Target="8" Weight="-3.72591759599738" Fixed="false" />
+    <LinkGene Id="327" Source="8" Target="6" Weight="-0.2690656046964931" Fixed="false" />
+  </Links>
+  <BehaviorType>
+    <bVector>
+      <double>0.866561167738539</double>
+      <double>0.59748427672955973</double>
+      <double>0.82707964658810418</double>
+      <double>0.9093280162911842</double>
+    </bVector>
+  </BehaviorType>
+  <GenomeDiversity>
+    <genotype_Diversity>28.945793212361327</genotype_Diversity>
+  </GenomeDiversity>
+</NetworkGenome>

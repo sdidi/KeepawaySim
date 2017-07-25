@@ -1,0 +1,4574 @@
+<Root>
+  <ActivationFunctions>
+    <Fn id="0" name="SteepenedSigmoid" prob="1" />
+  </ActivationFunctions>
+  <Networks>
+    <Network id="6030" birthGen="49" fitness="0.41" realFitness="0.41" novelty="0.621451371296989" diversity="0.0847867051173984">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="2.62153146223561" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+        <Con id="103" src="11" tgt="16" wght="-5" />
+      </Connections>
+    </Network>
+    <Network id="5930" birthGen="48" fitness="0.23199999999999998" realFitness="0.232" novelty="0.101460628392293" diversity="0.0847867051173984">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="2.62153146223561" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+        <Con id="103" src="11" tgt="16" wght="-5" />
+      </Connections>
+    </Network>
+    <Network id="6008" birthGen="48" fitness="0.294" realFitness="0.294" novelty="0.0182777515865591" diversity="0.286837525960922">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="83" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="2.8041912635893356" />
+        <Con id="39" src="7" tgt="15" wght="-0.59848212970240922" />
+        <Con id="61" src="6" tgt="14" wght="1.3542372166275918" />
+        <Con id="84" src="2" tgt="83" wght="-3.6228364702364373" />
+        <Con id="85" src="83" tgt="15" wght="5" />
+        <Con id="90" src="3" tgt="83" wght="-3.9262363320541906" />
+        <Con id="95" src="5" tgt="15" wght="3.3715281136012702" />
+        <Con id="102" src="9" tgt="14" wght="-1.0212934203445911" />
+      </Connections>
+    </Network>
+    <Network id="5990" birthGen="48" fitness="0.3205" realFitness="0.3205" novelty="0.022098245111087" diversity="0.335729747562008">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="83" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="1.5100504504516721" />
+        <Con id="61" src="6" tgt="14" wght="1.3542372166275918" />
+        <Con id="84" src="2" tgt="83" wght="-3.6070257976804596" />
+        <Con id="85" src="83" tgt="15" wght="4.6119669266045094" />
+        <Con id="90" src="3" tgt="83" wght="-3.8657240895554423" />
+        <Con id="95" src="5" tgt="15" wght="-0.97262116603542426" />
+        <Con id="102" src="9" tgt="14" wght="-1.0212934203445911" />
+      </Connections>
+    </Network>
+    <Network id="5947" birthGen="48" fitness="0.26949999999999996" realFitness="0.2695" novelty="0.0228581000672476" diversity="0.286133823438432">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="83" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.2540751942305728" />
+        <Con id="39" src="7" tgt="15" wght="0.73488775874458812" />
+        <Con id="61" src="6" tgt="14" wght="-3.6964943213388324" />
+        <Con id="84" src="2" tgt="83" wght="-4.785671177468056" />
+        <Con id="85" src="83" tgt="15" wght="-2.7157313861824632" />
+        <Con id="90" src="3" tgt="83" wght="5" />
+        <Con id="95" src="5" tgt="15" wght="3.65476643362202" />
+        <Con id="100" src="9" tgt="83" wght="-3.7386251632883409" />
+      </Connections>
+    </Network>
+    <Network id="6024" birthGen="49" fitness="0.38" realFitness="0.38" novelty="0.0431688617466343" diversity="0.0608951016339782">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="4.9623956944749468" />
+        <Con id="39" src="7" tgt="15" wght="2.5413576666364808" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+      </Connections>
+    </Network>
+    <Network id="6075" birthGen="49" fitness="0.4345" realFitness="0.4345" novelty="0.212333519058067" diversity="0.15243359954706">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8884066925226342" />
+        <Con id="28" src="3" tgt="16" wght="4.6807416806288922" />
+        <Con id="44" src="9" tgt="14" wght="-4.1862195684561705" />
+        <Con id="74" src="16" tgt="16" wght="-3.8957871729508042" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="-0.49505052815476469" />
+        <Con id="104" src="12" tgt="14" wght="-0.15982624028158449" />
+      </Connections>
+    </Network>
+    <Network id="6073" birthGen="49" fitness="0.305" realFitness="0.305" novelty="0.0148333517778496" diversity="0.151500398365331">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8884066925226342" />
+        <Con id="28" src="3" tgt="16" wght="4.6807416806288922" />
+        <Con id="44" src="9" tgt="14" wght="-4.1809088610163982" />
+        <Con id="74" src="16" tgt="16" wght="-3.8957871729508042" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="-0.49505052815476469" />
+        <Con id="104" src="12" tgt="14" wght="-0.12517906259745359" />
+      </Connections>
+    </Network>
+    <Network id="6068" birthGen="49" fitness="0.311" realFitness="0.311" novelty="0.0155000015714993" diversity="0.209413102144165">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8884066925226342" />
+        <Con id="28" src="3" tgt="16" wght="4.6807416806288922" />
+        <Con id="44" src="9" tgt="14" wght="-4.1862195684561705" />
+        <Con id="74" src="16" tgt="16" wght="-5" />
+        <Con id="82" src="2" tgt="14" wght="-1.564433460284385" />
+        <Con id="99" src="7" tgt="14" wght="-0.49505052815476469" />
+        <Con id="104" src="12" tgt="14" wght="-0.84416913595996046" />
+      </Connections>
+    </Network>
+    <Network id="6071" birthGen="49" fitness="0.3045" realFitness="0.3045" novelty="0.0148333334754469" diversity="0.233333333333333">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8884066925226342" />
+        <Con id="28" src="3" tgt="16" wght="4.6807416806288922" />
+        <Con id="44" src="9" tgt="14" wght="-4.1862195684561705" />
+        <Con id="74" src="16" tgt="16" wght="0.24721317458897829" />
+        <Con id="82" src="2" tgt="14" wght="-0.86443571839481592" />
+        <Con id="99" src="7" tgt="14" wght="-0.49505052815476469" />
+        <Con id="104" src="12" tgt="14" wght="-2.2347343107685447" />
+      </Connections>
+    </Network>
+    <Network id="6035" birthGen="49" fitness="0.2595" realFitness="0.2595" novelty="0.0198333333472757" diversity="0.155270472087788">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8884066925226342" />
+        <Con id="28" src="3" tgt="16" wght="4.70826254708959" />
+        <Con id="44" src="9" tgt="14" wght="-4.1862195684561705" />
+        <Con id="74" src="16" tgt="16" wght="-3.8957871729508042" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="0.30447010416537523" />
+        <Con id="104" src="12" tgt="14" wght="0.86373949889093637" />
+      </Connections>
+    </Network>
+    <Network id="6067" birthGen="49" fitness="0.382" realFitness="0.382" novelty="0.046166666667823" diversity="0.203544951131055">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.1340830796006292" />
+        <Con id="28" src="3" tgt="16" wght="3.3522057229441531" />
+        <Con id="44" src="9" tgt="14" wght="-3.072501775737233" />
+        <Con id="74" src="16" tgt="16" wght="-3.8957871729508042" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="-0.49505052815476469" />
+        <Con id="104" src="12" tgt="14" wght="-0.12517906259745359" />
+      </Connections>
+    </Network>
+    <Network id="6100" birthGen="49" fitness="0.358" realFitness="0.358" novelty="0.0363333333334458" diversity="0.20128960814139">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="4.6035175629113176" />
+        <Con id="28" src="3" tgt="16" wght="4.6807416806288922" />
+        <Con id="44" src="9" tgt="14" wght="-4.1862195684561705" />
+        <Con id="74" src="16" tgt="16" wght="-2.2965180865041841" />
+        <Con id="82" src="2" tgt="14" wght="-1.440728209030351" />
+        <Con id="99" src="7" tgt="14" wght="0.67460472553423867" />
+      </Connections>
+    </Network>
+    <Network id="6132" birthGen="49" fitness="0.3645" realFitness="0.3645" novelty="0.0346666666666762" diversity="0.159406319725402">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.7243594100562665" />
+        <Con id="28" src="3" tgt="16" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="2.8262444486609413" />
+      </Connections>
+    </Network>
+    <Network id="6089" birthGen="49" fitness="0.27149999999999996" realFitness="0.2715" novelty="0.0230000000000009" diversity="0.251666666666667">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="28" src="3" tgt="16" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-0.36162117496132851" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.9751242594793439" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6091" birthGen="49" fitness="0.377" realFitness="0.377" novelty="0.0393333333333334" diversity="0.104782990978116">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.905124950395642" />
+        <Con id="28" src="3" tgt="16" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="5895" birthGen="47" fitness="0.38849999999999996" realFitness="0.3885" novelty="0.0583333333333333" diversity="0.162015638435472">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.65675963820206" />
+        <Con id="28" src="3" tgt="16" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="2.8262444486609413" />
+      </Connections>
+    </Network>
+    <Network id="6088" birthGen="49" fitness="0.308" realFitness="0.308" novelty="0.0143333333333333" diversity="0.241932665630895">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="28" src="3" tgt="16" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-3.7316228614092215" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="4.3511524236664565" />
+      </Connections>
+    </Network>
+    <Network id="6137" birthGen="49" fitness="0.263" realFitness="0.263" novelty="0.0186666666666666" diversity="0.251666666666667">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.65675963820206" />
+        <Con id="28" src="3" tgt="16" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-0.30035000294446945" />
+        <Con id="99" src="7" tgt="14" wght="-3.717223540879786" />
+        <Con id="101" src="13" tgt="15" wght="3.7621869193390012" />
+      </Connections>
+    </Network>
+    <Network id="6141" birthGen="49" fitness="0.269" realFitness="0.269" novelty="0.0228333333333333" diversity="0.161812272448487">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.65675963820206" />
+        <Con id="28" src="3" tgt="16" wght="4.9701961848916261" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="2.8262444486609413" />
+      </Connections>
+    </Network>
+    <Network id="6059" birthGen="49" fitness="0.3735" realFitness="0.3735" novelty="0.0383333333333333" diversity="0.117096702517435">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8884066925226342" />
+        <Con id="28" src="3" tgt="16" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.2042110718319352" />
+      </Connections>
+    </Network>
+    <Network id="6103" birthGen="49" fitness="0.339" realFitness="0.339" novelty="0.0143333333333333" diversity="0.193773641097519">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8212399448413912" />
+        <Con id="28" src="3" tgt="16" wght="4.6807416806288922" />
+        <Con id="44" src="9" tgt="14" wght="-4.1862195684561705" />
+        <Con id="74" src="16" tgt="16" wght="-2.2965180865041841" />
+        <Con id="82" src="2" tgt="14" wght="-1.440728209030351" />
+        <Con id="99" src="7" tgt="14" wght="0.66942340938522438" />
+      </Connections>
+    </Network>
+    <Network id="6062" birthGen="49" fitness="0.257" realFitness="0.257" novelty="0.0241666666666667" diversity="0.226666666666667">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="0.33731923904269934" />
+        <Con id="28" src="3" tgt="16" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+      </Connections>
+    </Network>
+    <Network id="6109" birthGen="49" fitness="0.288" realFitness="0.288" novelty="0.02" diversity="0.155349850540358">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="1.6635567404142273" />
+        <Con id="28" src="3" tgt="16" wght="0.060475676267658852" />
+        <Con id="44" src="9" tgt="14" wght="4.44659244796116" />
+        <Con id="74" src="16" tgt="16" wght="2.7744070029571666" />
+        <Con id="82" src="2" tgt="14" wght="-0.27272264316413974" />
+      </Connections>
+    </Network>
+    <Network id="6108" birthGen="49" fitness="0.324" realFitness="0.324" novelty="0.0145" diversity="0.132077896805941">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="0.82374259846278763" />
+        <Con id="28" src="3" tgt="16" wght="0.060475676267658852" />
+        <Con id="44" src="9" tgt="14" wght="5" />
+        <Con id="74" src="16" tgt="16" wght="1.474908089116405" />
+        <Con id="82" src="2" tgt="14" wght="-0.27272264316413974" />
+      </Connections>
+    </Network>
+    <Network id="5815" birthGen="47" fitness="0.21949999999999997" realFitness="0.2195" novelty="0.125833333333333" diversity="0.141940504246426">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="1.6551575171584823" />
+        <Con id="28" src="3" tgt="16" wght="0.072356274488476535" />
+        <Con id="44" src="9" tgt="14" wght="5" />
+        <Con id="67" src="13" tgt="14" wght="-3.821809172281859" />
+        <Con id="74" src="16" tgt="16" wght="0.67286815463715455" />
+        <Con id="82" src="2" tgt="14" wght="-0.27272264316413974" />
+      </Connections>
+    </Network>
+    <Network id="6118" birthGen="49" fitness="0.3765" realFitness="0.3765" novelty="0.039" diversity="0.117554710119821">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="1.6551575171584823" />
+        <Con id="28" src="3" tgt="16" wght="0.060475676267658852" />
+        <Con id="44" src="9" tgt="14" wght="5" />
+        <Con id="67" src="13" tgt="14" wght="-3.821809172281859" />
+        <Con id="74" src="16" tgt="16" wght="1.474908089116405" />
+        <Con id="82" src="2" tgt="14" wght="-0.27272264316413974" />
+      </Connections>
+    </Network>
+    <Network id="6128" birthGen="49" fitness="0.3075" realFitness="0.3075" novelty="0.0138333333333333" diversity="0.03052820991597">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6130" birthGen="49" fitness="0.273" realFitness="0.273" novelty="0.0223333333333333" diversity="0.0305399939537362">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-3.2981836842373013" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="5921" birthGen="48" fitness="0.257" realFitness="0.257" novelty="0.0241666666666667" diversity="0.0350501938745689">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-4.29012311257332" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6124" birthGen="49" fitness="0.3725" realFitness="0.3725" novelty="0.038" diversity="0.0731603160950597">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.2081265684772946" />
+        <Con id="28" src="3" tgt="16" wght="-3.0128298560157418" />
+        <Con id="39" src="7" tgt="15" wght="-3.3925117505714297" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="1.2637667264789343" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6146" birthGen="50" fitness="0.2975" realFitness="0.2975" novelty="0.0103333333333333" diversity="0.171084822345282">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="1.6087435578621636" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+        <Con id="103" src="11" tgt="16" wght="-4.1453680452190822" />
+      </Connections>
+    </Network>
+    <Network id="6147" birthGen="50" fitness="0.2665" realFitness="0.2665" novelty="0.0221666666666667" diversity="0.140442970709281">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.2554161453612245" />
+        <Con id="39" src="7" tgt="15" wght="2.62153146223561" />
+        <Con id="61" src="6" tgt="14" wght="0.045476395113873691" />
+        <Con id="103" src="11" tgt="16" wght="-4.4135101140793536" />
+      </Connections>
+    </Network>
+    <Network id="6148" birthGen="50" fitness="0.301" realFitness="0.301" novelty="0.0148333333333333" diversity="0.0864915565237945">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="2.62153146223561" />
+        <Con id="61" src="6" tgt="14" wght="-0.51037008541392825" />
+        <Con id="103" src="11" tgt="16" wght="-4.9853354498441522" />
+      </Connections>
+    </Network>
+    <Network id="6149" birthGen="50" fitness="0.27749999999999997" realFitness="0.2775" novelty="0.0216666666666667" diversity="0.0847867051173984">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="2.62153146223561" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+        <Con id="103" src="11" tgt="16" wght="-5" />
+      </Connections>
+    </Network>
+    <Network id="6150" birthGen="50" fitness="0.24300000000000002" realFitness="0.243" novelty="0.0375" diversity="0.1058925816361">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="2.62153146223561" />
+        <Con id="61" src="6" tgt="14" wght="-0.11355085307430229" />
+        <Con id="103" src="11" tgt="16" wght="-5" />
+      </Connections>
+    </Network>
+    <Network id="6151" birthGen="50" fitness="0.3065" realFitness="0.3065" novelty="0.0141666666666667" diversity="0.169464234982811">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="-0.4025714854850424" />
+        <Con id="39" src="7" tgt="15" wght="2.62153146223561" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+        <Con id="103" src="11" tgt="16" wght="-5" />
+      </Connections>
+    </Network>
+    <Network id="6152" birthGen="50" fitness="0.2875" realFitness="0.2875" novelty="0.02" diversity="0.0863320587684225">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="2.6601653035112123" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+        <Con id="103" src="11" tgt="16" wght="-5" />
+      </Connections>
+    </Network>
+    <Network id="6153" birthGen="50" fitness="0.282" realFitness="0.282" novelty="0.021" diversity="0.197419847030536">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="3.7999653322641711" />
+        <Con id="61" src="6" tgt="14" wght="-1.8771743225038424" />
+        <Con id="103" src="11" tgt="16" wght="-5" />
+      </Connections>
+    </Network>
+    <Network id="6154" birthGen="50" fitness="0.2805" realFitness="0.2805" novelty="0.0211666666666667" diversity="0.158681340348412">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="3.4737967969344625" />
+        <Con id="61" src="6" tgt="14" wght="-1.2557189261890933" />
+        <Con id="103" src="11" tgt="16" wght="-5" />
+      </Connections>
+    </Network>
+    <Network id="6155" birthGen="50" fitness="0.465" realFitness="0.465" novelty="0.333333333333334" diversity="0.161000516198656">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="2.62153146223561" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+        <Con id="103" src="11" tgt="16" wght="-3.35667583299288" />
+      </Connections>
+    </Network>
+    <Network id="6156" birthGen="50" fitness="0.335" realFitness="0.335" novelty="0.0165" diversity="0.0849515725413002">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="2.62153146223561" />
+        <Con id="61" src="6" tgt="14" wght="-0.53808563098523465" />
+        <Con id="103" src="11" tgt="16" wght="-5" />
+      </Connections>
+    </Network>
+    <Network id="6157" birthGen="50" fitness="0.3135" realFitness="0.3135" novelty="0.0183333333333333" diversity="0.235">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="-0.61392668634653091" />
+        <Con id="61" src="6" tgt="14" wght="4.6775440219789743" />
+        <Con id="103" src="11" tgt="16" wght="-5" />
+      </Connections>
+    </Network>
+    <Network id="6158" birthGen="50" fitness="0.273" realFitness="0.273" novelty="0.0223333333333333" diversity="0.0849772955764005">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="2.62153146223561" />
+        <Con id="61" src="6" tgt="14" wght="-0.53722819648189057" />
+        <Con id="103" src="11" tgt="16" wght="-5" />
+      </Connections>
+    </Network>
+    <Network id="6159" birthGen="50" fitness="0.3465" realFitness="0.3465" novelty="0.0276666666666666" diversity="0.286241155666646">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="83" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.2540751942305728" />
+        <Con id="39" src="7" tgt="15" wght="0.73488775874458812" />
+        <Con id="61" src="6" tgt="14" wght="-3.6964943213388324" />
+        <Con id="84" src="2" tgt="83" wght="-4.785671177468056" />
+        <Con id="85" src="83" tgt="15" wght="-2.7264646090038207" />
+        <Con id="90" src="3" tgt="83" wght="5" />
+        <Con id="95" src="5" tgt="15" wght="3.65476643362202" />
+        <Con id="100" src="9" tgt="83" wght="-3.7386251632883409" />
+      </Connections>
+    </Network>
+    <Network id="6160" birthGen="50" fitness="0.3055" realFitness="0.3055" novelty="0.0146666666666667" diversity="0.287055154536363">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="83" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="2.8041912635893356" />
+        <Con id="39" src="7" tgt="15" wght="-0.59848212970240922" />
+        <Con id="61" src="6" tgt="14" wght="1.3542372166275918" />
+        <Con id="84" src="2" tgt="83" wght="-3.6228364702364373" />
+        <Con id="85" src="83" tgt="15" wght="5" />
+        <Con id="90" src="3" tgt="83" wght="-3.9262363320541906" />
+        <Con id="95" src="5" tgt="15" wght="3.3715281136012702" />
+        <Con id="102" src="9" tgt="14" wght="-1.0430562778886758" />
+      </Connections>
+    </Network>
+    <Network id="6161" birthGen="50" fitness="0.3295" realFitness="0.3295" novelty="0.0216666666666666" diversity="0.310170859294255">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="83" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="2.8041912635893356" />
+        <Con id="39" src="7" tgt="15" wght="-0.59848212970240922" />
+        <Con id="61" src="6" tgt="14" wght="1.3542372166275918" />
+        <Con id="84" src="2" tgt="83" wght="-3.6228364702364373" />
+        <Con id="85" src="83" tgt="15" wght="5" />
+        <Con id="90" src="3" tgt="83" wght="-3.9262363320541906" />
+        <Con id="95" src="5" tgt="15" wght="3.3715281136012702" />
+        <Con id="102" src="9" tgt="14" wght="-1.0212934203445911" />
+        <Con id="110" src="8" tgt="83" wght="-1.3729262258857489" />
+      </Connections>
+    </Network>
+    <Network id="6162" birthGen="50" fitness="0.279" realFitness="0.279" novelty="0.0211666666666667" diversity="0.286145847779644">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="83" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.2540751942305728" />
+        <Con id="39" src="7" tgt="15" wght="0.73609019286575772" />
+        <Con id="61" src="6" tgt="14" wght="-3.6964943213388324" />
+        <Con id="84" src="2" tgt="83" wght="-4.785671177468056" />
+        <Con id="85" src="83" tgt="15" wght="-2.7157313861824632" />
+        <Con id="90" src="3" tgt="83" wght="5" />
+        <Con id="95" src="5" tgt="15" wght="3.65476643362202" />
+        <Con id="100" src="9" tgt="83" wght="-3.7386251632883409" />
+      </Connections>
+    </Network>
+    <Network id="6163" birthGen="50" fitness="0.351" realFitness="0.351" novelty="0.0371666666666666" diversity="0.286961615973992">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="83" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="2.7917822622823261" />
+        <Con id="39" src="7" tgt="15" wght="-0.59848212970240922" />
+        <Con id="61" src="6" tgt="14" wght="1.3542372166275918" />
+        <Con id="84" src="2" tgt="83" wght="-3.6228364702364373" />
+        <Con id="85" src="83" tgt="15" wght="5" />
+        <Con id="90" src="3" tgt="83" wght="-3.9262363320541906" />
+        <Con id="95" src="5" tgt="15" wght="3.3715281136012702" />
+        <Con id="102" src="9" tgt="14" wght="-1.0212934203445911" />
+      </Connections>
+    </Network>
+    <Network id="6164" birthGen="50" fitness="0.24500000000000002" realFitness="0.245" novelty="0.0381666666666667" diversity="0.288282113745872">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="83" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.2540751942305728" />
+        <Con id="39" src="7" tgt="15" wght="0.73488775874458812" />
+        <Con id="61" src="6" tgt="14" wght="-3.4816652905949033" />
+        <Con id="84" src="2" tgt="83" wght="-4.785671177468056" />
+        <Con id="85" src="83" tgt="15" wght="-2.7157313861824632" />
+        <Con id="90" src="3" tgt="83" wght="5" />
+        <Con id="95" src="5" tgt="15" wght="3.65476643362202" />
+        <Con id="100" src="9" tgt="83" wght="-3.7386251632883409" />
+      </Connections>
+    </Network>
+    <Network id="6165" birthGen="50" fitness="0.346" realFitness="0.346" novelty="0.0263333333333333" diversity="0.36">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="83" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="2.8041912635893356" />
+        <Con id="39" src="7" tgt="15" wght="1.5100504504516721" />
+        <Con id="61" src="6" tgt="14" wght="1.3542372166275918" />
+        <Con id="84" src="2" tgt="83" wght="-3.6228364702364373" />
+        <Con id="85" src="83" tgt="15" wght="-2.4194786929436183" />
+        <Con id="90" src="3" tgt="83" wght="5" />
+        <Con id="95" src="5" tgt="15" wght="3.3715281136012702" />
+        <Con id="102" src="9" tgt="14" wght="-1.0212934203445911" />
+      </Connections>
+    </Network>
+    <Network id="6166" birthGen="50" fitness="0.327" realFitness="0.327" novelty="0.0173333333333333" diversity="0.335729747562008">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="83" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="1.5100504504516721" />
+        <Con id="61" src="6" tgt="14" wght="1.3542372166275918" />
+        <Con id="84" src="2" tgt="83" wght="-3.6070257976804596" />
+        <Con id="85" src="83" tgt="15" wght="4.6119669266045094" />
+        <Con id="90" src="3" tgt="83" wght="-3.8657240895554423" />
+        <Con id="95" src="5" tgt="15" wght="-0.97262116603542426" />
+        <Con id="102" src="9" tgt="14" wght="0.032546276246810057" />
+      </Connections>
+    </Network>
+    <Network id="6167" birthGen="50" fitness="0.3655" realFitness="0.3655" novelty="0.035" diversity="0.344735822162097">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="83" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="2.8041912635893356" />
+        <Con id="39" src="7" tgt="15" wght="1.5100504504516721" />
+        <Con id="61" src="6" tgt="14" wght="1.3542372166275918" />
+        <Con id="84" src="2" tgt="83" wght="-3.6228364702364373" />
+        <Con id="85" src="83" tgt="15" wght="5" />
+        <Con id="90" src="3" tgt="83" wght="5" />
+        <Con id="95" src="5" tgt="15" wght="3.3715281136012702" />
+        <Con id="102" src="9" tgt="14" wght="-1.0212934203445911" />
+      </Connections>
+    </Network>
+    <Network id="6168" birthGen="50" fitness="0.4575" realFitness="0.4575" novelty="0.298333333333334" diversity="0.366652205176249">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="83" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.2540751942305728" />
+        <Con id="39" src="7" tgt="15" wght="0.73488775874458812" />
+        <Con id="61" src="6" tgt="14" wght="1.3542372166275918" />
+        <Con id="84" src="2" tgt="83" wght="-4.785671177468056" />
+        <Con id="85" src="83" tgt="15" wght="4.6119669266045094" />
+        <Con id="90" src="3" tgt="83" wght="5" />
+        <Con id="95" src="5" tgt="15" wght="3.65476643362202" />
+        <Con id="100" src="9" tgt="83" wght="-3.7386251632883409" />
+        <Con id="102" src="9" tgt="14" wght="-1.0212934203445911" />
+      </Connections>
+    </Network>
+    <Network id="6169" birthGen="50" fitness="0.2585" realFitness="0.2585" novelty="0.0205" diversity="0.33025472780026">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="83" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="1.1620765705529121" />
+        <Con id="39" src="7" tgt="15" wght="1.5100504504516721" />
+        <Con id="61" src="6" tgt="14" wght="1.3542372166275918" />
+        <Con id="84" src="2" tgt="83" wght="-3.6070257976804596" />
+        <Con id="85" src="83" tgt="15" wght="4.6119669266045094" />
+        <Con id="90" src="3" tgt="83" wght="5" />
+        <Con id="95" src="5" tgt="15" wght="3.7800159119857115" />
+        <Con id="102" src="9" tgt="14" wght="-1.0212934203445911" />
+      </Connections>
+    </Network>
+    <Network id="6170" birthGen="50" fitness="0.29" realFitness="0.29" novelty="0.0198333333333333" diversity="0.060995482135126">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="4.9649047706973644" />
+        <Con id="39" src="7" tgt="15" wght="2.588051241523464" />
+        <Con id="61" src="6" tgt="14" wght="-0.53557439750342728" />
+      </Connections>
+    </Network>
+    <Network id="6171" birthGen="50" fitness="0.27549999999999997" realFitness="0.2755" novelty="0.0218333333333333" diversity="0.1314756145206">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="4.9633052162936391" />
+        <Con id="39" src="7" tgt="15" wght="2.585922075328698" />
+        <Con id="61" src="6" tgt="14" wght="0.85174343599468416" />
+      </Connections>
+    </Network>
+    <Network id="6172" birthGen="50" fitness="0.3225" realFitness="0.3225" novelty="0.0173333333333333" diversity="0.0608893700848217">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="4.9623956944749468" />
+        <Con id="39" src="7" tgt="15" wght="2.5659086148336159" />
+        <Con id="61" src="6" tgt="14" wght="-0.53597092578602445" />
+      </Connections>
+    </Network>
+    <Network id="6173" birthGen="50" fitness="0.26349999999999996" realFitness="0.2635" novelty="0.0193333333333333" diversity="0.21">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="4.9623956944749468" />
+        <Con id="39" src="7" tgt="15" wght="-3.0669140024110675" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+      </Connections>
+    </Network>
+    <Network id="6174" birthGen="50" fitness="0.263" realFitness="0.263" novelty="0.0186666666666666" diversity="0.0614580609808426">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="4.9436449513422769" />
+        <Con id="39" src="7" tgt="15" wght="2.585922075328698" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+      </Connections>
+    </Network>
+    <Network id="6175" birthGen="50" fitness="0.397" realFitness="0.397" novelty="0.0866666666666668" diversity="0.186513742173137">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="4.9623956944749468" />
+        <Con id="39" src="7" tgt="15" wght="4.12242643563733" />
+        <Con id="61" src="6" tgt="14" wght="-1.4052214457351639" />
+      </Connections>
+    </Network>
+    <Network id="6176" birthGen="50" fitness="0.28500000000000003" realFitness="0.285" novelty="0.0205" diversity="0.0604313177176392">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="4.9633052162936391" />
+        <Con id="39" src="7" tgt="15" wght="2.585922075328698" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+      </Connections>
+    </Network>
+    <Network id="6177" birthGen="50" fitness="0.3435" realFitness="0.3435" novelty="0.0211666666666666" diversity="0.0608996492430717">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="4.9633052162936391" />
+        <Con id="39" src="7" tgt="15" wght="2.5413576666364808" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+      </Connections>
+    </Network>
+    <Network id="6178" birthGen="50" fitness="0.266" realFitness="0.266" novelty="0.0218333333333333" diversity="0.0608996492430717">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="4.9633052162936391" />
+        <Con id="39" src="7" tgt="15" wght="2.5413576666364808" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+      </Connections>
+    </Network>
+    <Network id="6179" birthGen="50" fitness="0.238" realFitness="0.238" novelty="0.0435" diversity="0.0608951016339782">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="4.9623956944749468" />
+        <Con id="39" src="7" tgt="15" wght="2.5413576666364808" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+      </Connections>
+    </Network>
+    <Network id="6180" birthGen="50" fitness="0.26549999999999996" realFitness="0.2655" novelty="0.0216666666666666" diversity="0.0608951016339782">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="4.9623956944749468" />
+        <Con id="39" src="7" tgt="15" wght="2.5413576666364808" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+      </Connections>
+    </Network>
+    <Network id="6181" birthGen="50" fitness="0.28500000000000003" realFitness="0.285" novelty="0.0205" diversity="0.0604267701085458">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="4.9623956944749468" />
+        <Con id="39" src="7" tgt="15" wght="2.585922075328698" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+      </Connections>
+    </Network>
+    <Network id="6182" birthGen="50" fitness="0.344" realFitness="0.344" novelty="0.022" diversity="0.0604313177176392">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="24" src="2" tgt="15" wght="4.9633052162936391" />
+        <Con id="39" src="7" tgt="15" wght="2.585922075328698" />
+        <Con id="61" src="6" tgt="14" wght="-0.54632900218032365" />
+      </Connections>
+    </Network>
+    <Network id="6183" birthGen="50" fitness="0.358" realFitness="0.358" novelty="0.0363333333333333" diversity="0.203016652333384">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.1340830796006292" />
+        <Con id="28" src="3" tgt="16" wght="3.3522057229441531" />
+        <Con id="44" src="9" tgt="14" wght="-3.1781615352714159" />
+        <Con id="74" src="16" tgt="16" wght="-3.8957871729508042" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="-0.49505052815476469" />
+        <Con id="104" src="12" tgt="14" wght="-0.12517906259745359" />
+      </Connections>
+    </Network>
+    <Network id="6184" birthGen="50" fitness="0.275" realFitness="0.275" novelty="0.0218333333333333" diversity="0.194711199533007">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.6815099823142496" />
+        <Con id="28" src="3" tgt="16" wght="3.794351434125792" />
+        <Con id="44" src="9" tgt="14" wght="-3.072501775737233" />
+        <Con id="74" src="16" tgt="16" wght="-3.8957871729508042" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="-0.49505052815476469" />
+        <Con id="104" src="12" tgt="14" wght="-0.12517906259745359" />
+      </Connections>
+    </Network>
+    <Network id="6185" birthGen="50" fitness="0.339" realFitness="0.339" novelty="0.0143333333333333" diversity="0.178710188905303">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8884066925226342" />
+        <Con id="28" src="3" tgt="16" wght="4.6807416806288922" />
+        <Con id="44" src="9" tgt="14" wght="-4.6452596025985784" />
+        <Con id="74" src="16" tgt="16" wght="-3.8957871729508042" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="-0.49505052815476469" />
+        <Con id="104" src="12" tgt="14" wght="-0.12517906259745359" />
+      </Connections>
+    </Network>
+    <Network id="6186" birthGen="50" fitness="0.3075" realFitness="0.3075" novelty="0.0138333333333333" diversity="0.201613135377318">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="4.6304537514688864" />
+        <Con id="28" src="3" tgt="16" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.1862195684561705" />
+        <Con id="74" src="16" tgt="16" wght="-3.8957871729508042" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="0.30447010416537523" />
+        <Con id="104" src="12" tgt="14" wght="0.86373949889093637" />
+      </Connections>
+    </Network>
+    <Network id="6187" birthGen="50" fitness="0.3075" realFitness="0.3075" novelty="0.0138333333333333" diversity="0.175953257001873">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8884066925226342" />
+        <Con id="28" src="3" tgt="16" wght="4.70826254708959" />
+        <Con id="44" src="9" tgt="14" wght="-4.1862195684561705" />
+        <Con id="74" src="16" tgt="16" wght="-3.8957871729508042" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="-0.49505052815476469" />
+        <Con id="104" src="12" tgt="14" wght="0.86373949889093637" />
+      </Connections>
+    </Network>
+    <Network id="6188" birthGen="50" fitness="0.3255" realFitness="0.3255" novelty="0.0151666666666666" diversity="0.180589272258868">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.1340830796006292" />
+        <Con id="28" src="3" tgt="16" wght="4.6807416806288922" />
+        <Con id="44" src="9" tgt="14" wght="-4.1809088610163982" />
+        <Con id="74" src="16" tgt="16" wght="-3.8957871729508042" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="-0.49505052815476469" />
+        <Con id="104" src="12" tgt="14" wght="-0.12517906259745359" />
+      </Connections>
+    </Network>
+    <Network id="6189" birthGen="50" fitness="0.33399999999999996" realFitness="0.334" novelty="0.0188333333333334" diversity="0.199682102424593">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8884066925226342" />
+        <Con id="28" src="3" tgt="16" wght="3.3522057229441531" />
+        <Con id="44" src="9" tgt="14" wght="-3.072501775737233" />
+        <Con id="74" src="16" tgt="16" wght="-3.8957871729508042" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="-0.49505052815476469" />
+        <Con id="104" src="12" tgt="14" wght="-0.12517906259745359" />
+      </Connections>
+    </Network>
+    <Network id="6190" birthGen="50" fitness="0.38849999999999996" realFitness="0.3885" novelty="0.0583333333333333" diversity="0.233333333333333">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8884066925226342" />
+        <Con id="28" src="3" tgt="16" wght="4.6807416806288922" />
+        <Con id="44" src="9" tgt="14" wght="-4.1862195684561705" />
+        <Con id="74" src="16" tgt="16" wght="0.24721317458897829" />
+        <Con id="82" src="2" tgt="14" wght="-0.86443571839481592" />
+        <Con id="99" src="7" tgt="14" wght="-0.49505052815476469" />
+        <Con id="104" src="12" tgt="14" wght="-2.2347343107685447" />
+      </Connections>
+    </Network>
+    <Network id="6191" birthGen="50" fitness="0.2885" realFitness="0.2885" novelty="0.02" diversity="0.209439655681364">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8884066925226342" />
+        <Con id="28" src="3" tgt="16" wght="4.6807416806288922" />
+        <Con id="44" src="9" tgt="14" wght="-4.1809088610163982" />
+        <Con id="74" src="16" tgt="16" wght="-5" />
+        <Con id="82" src="2" tgt="14" wght="-1.564433460284385" />
+        <Con id="99" src="7" tgt="14" wght="-0.49505052815476469" />
+        <Con id="104" src="12" tgt="14" wght="-0.84416913595996046" />
+      </Connections>
+    </Network>
+    <Network id="6192" birthGen="50" fitness="0.27149999999999996" realFitness="0.2715" novelty="0.023" diversity="0.0187019344348601">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.852885387794716" />
+        <Con id="44" src="9" tgt="14" wght="-4.1836128462042979" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6193" birthGen="50" fitness="0.34550000000000003" realFitness="0.3455" novelty="0.025" diversity="0.0183174392481881">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6194" birthGen="50" fitness="0.348" realFitness="0.348" novelty="0.0313333333333333" diversity="0.020188143749211">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-4.2078775412273126" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.591612766658054" />
+        <Con id="101" src="13" tgt="15" wght="4.993271510910291" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6195" birthGen="50" fitness="0.292" realFitness="0.292" novelty="0.0188333333333334" diversity="0.0183174392481881">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6196" birthGen="50" fitness="0.2385" realFitness="0.2385" novelty="0.0421666666666667" diversity="0.0255840239901304">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.6996514377135623" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6197" birthGen="50" fitness="0.2955" realFitness="0.2955" novelty="0.0123333333333333" diversity="0.0599928049138176">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-4.5009991477271631" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6198" birthGen="50" fitness="0.3155" realFitness="0.3155" novelty="0.0233333333333333" diversity="0.0339651568600523">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="4.7592658828943968" />
+      </Connections>
+    </Network>
+    <Network id="6199" birthGen="50" fitness="0.3755" realFitness="0.3755" novelty="0.0383333333333333" diversity="0.288084171307817">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-3.3378638839349151" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="1.4040059642866254" />
+      </Connections>
+    </Network>
+    <Network id="6200" birthGen="50" fitness="0.3365" realFitness="0.3365" novelty="0.0143333333333333" diversity="0.186588226781791">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.671182672216466" />
+        <Con id="44" src="9" tgt="14" wght="-2.8430870703121029" />
+        <Con id="74" src="16" tgt="16" wght="-4.7887569276599082" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6201" birthGen="50" fitness="0.3565" realFitness="0.3565" novelty="0.0363333333333333" diversity="0.0193227275519839">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.87135262942956" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8947450966648223" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6202" birthGen="50" fitness="0.303" realFitness="0.303" novelty="0.016" diversity="0.0201799376233938">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-4.1595138261521925" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6203" birthGen="50" fitness="0.2505" realFitness="0.2505" novelty="0.0395" diversity="0.0715283510922397">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-5" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6204" birthGen="50" fitness="0.335" realFitness="0.335" novelty="0.0165" diversity="0.17569540665011">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-5" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.1908045375445742" />
+        <Con id="99" src="7" tgt="14" wght="0.36580938727882528" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6205" birthGen="50" fitness="0.35550000000000004" realFitness="0.3555" novelty="0.037" diversity="0.0201307813174274">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8345814292658207" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8919726068073763" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5994565341339617" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6206" birthGen="50" fitness="0.2405" realFitness="0.2405" novelty="0.0391666666666667" diversity="0.0193927689048078">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="4.9809564242080526" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6207" birthGen="50" fitness="0.3245" realFitness="0.3245" novelty="0.0141666666666666" diversity="0.0398314979872754">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="4.6690144809371184" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6208" birthGen="50" fitness="0.3095" realFitness="0.3095" novelty="0.0151666666666666" diversity="0.0203337830483246">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="4.9675133650149554" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6209" birthGen="50" fitness="0.341" realFitness="0.341" novelty="0.0175" diversity="0.0199529153833828">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4299659340707256" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6210" birthGen="50" fitness="0.32799999999999996" realFitness="0.328" novelty="0.0191666666666666" diversity="0.301666666666667">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="106" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="4.15830803103745" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="5" />
+        <Con id="107" src="3" tgt="106" wght="5" />
+        <Con id="108" src="106" tgt="16" wght="5" />
+      </Connections>
+    </Network>
+    <Network id="6211" birthGen="50" fitness="0.2995" realFitness="0.2995" novelty="0.0126666666666666" diversity="0.248506809605693">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8563675247132778" />
+        <Con id="28" src="3" tgt="16" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-3.7316228614092215" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="0.62744699418544769" />
+      </Connections>
+    </Network>
+    <Network id="6212" birthGen="50" fitness="0.2505" realFitness="0.2505" novelty="0.0395" diversity="0.193811072833945">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8193306289067177" />
+        <Con id="28" src="3" tgt="16" wght="4.6807416806288922" />
+        <Con id="44" src="9" tgt="14" wght="-4.1862195684561705" />
+        <Con id="74" src="16" tgt="16" wght="-2.2965180865041841" />
+        <Con id="82" src="2" tgt="14" wght="-1.4496296217892917" />
+        <Con id="99" src="7" tgt="14" wght="0.69044585392341784" />
+      </Connections>
+    </Network>
+    <Network id="6213" birthGen="50" fitness="0.379" realFitness="0.379" novelty="0.0418333333333333" diversity="0.156516059679303">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.905124950395642" />
+        <Con id="28" src="3" tgt="16" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="2.8262444486609413" />
+      </Connections>
+    </Network>
+    <Network id="6214" birthGen="50" fitness="0.2615" realFitness="0.2615" novelty="0.0186666666666666" diversity="0.161812272448487">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.65675963820206" />
+        <Con id="28" src="3" tgt="16" wght="4.9701961848916261" />
+        <Con id="44" src="9" tgt="14" wght="-4.186538962396936" />
+        <Con id="74" src="16" tgt="16" wght="-3.8929753963178415" />
+        <Con id="82" src="2" tgt="14" wght="-1.4533298788592219" />
+        <Con id="99" src="7" tgt="14" wght="1.5952408426111231" />
+        <Con id="101" src="13" tgt="15" wght="2.8262444486609413" />
+      </Connections>
+    </Network>
+    <Network id="6215" birthGen="50" fitness="0.2935" realFitness="0.2935" novelty="0.0165" diversity="0.226666666666667">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="1.6551575171584823" />
+        <Con id="28" src="3" tgt="16" wght="0.072356274488476535" />
+        <Con id="44" src="9" tgt="14" wght="5" />
+        <Con id="67" src="13" tgt="14" wght="-3.821809172281859" />
+        <Con id="74" src="16" tgt="16" wght="-3.6148804053664207" />
+        <Con id="82" src="2" tgt="14" wght="-0.27272264316413974" />
+      </Connections>
+    </Network>
+    <Network id="6216" birthGen="50" fitness="0.28700000000000003" realFitness="0.287" novelty="0.0203333333333333" diversity="0.15579647795188">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="1.6408284462529461" />
+        <Con id="28" src="3" tgt="16" wght="0.060475676267658852" />
+        <Con id="44" src="9" tgt="14" wght="4.44659244796116" />
+        <Con id="74" src="16" tgt="16" wght="2.7509212611236822" />
+        <Con id="82" src="2" tgt="14" wght="-0.29472543916261978" />
+      </Connections>
+    </Network>
+    <Network id="6217" birthGen="50" fitness="0.44349999999999995" realFitness="0.4435" novelty="0.242333333333333" diversity="0.163934047538904">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="0.33818852102386576" />
+        <Con id="28" src="3" tgt="16" wght="0.060475676267658852" />
+        <Con id="44" src="9" tgt="14" wght="5" />
+        <Con id="67" src="13" tgt="14" wght="-3.821809172281859" />
+        <Con id="74" src="16" tgt="16" wght="1.474908089116405" />
+        <Con id="82" src="2" tgt="14" wght="-0.27272264316413974" />
+      </Connections>
+    </Network>
+    <Network id="6218" birthGen="50" fitness="0.364" realFitness="0.364" novelty="0.0346666666666667" diversity="0.117573361864455">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="1.6551575171584823" />
+        <Con id="28" src="3" tgt="16" wght="0.060475676267658852" />
+        <Con id="44" src="9" tgt="14" wght="5" />
+        <Con id="67" src="13" tgt="14" wght="-3.8230526219241487" />
+        <Con id="74" src="16" tgt="16" wght="1.474908089116405" />
+        <Con id="82" src="2" tgt="14" wght="-0.27272264316413974" />
+      </Connections>
+    </Network>
+    <Network id="6219" birthGen="50" fitness="0.304" realFitness="0.304" novelty="0.0151666666666667" diversity="0.165956344130822">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="0.82374259846278763" />
+        <Con id="28" src="3" tgt="16" wght="0.831860490710673" />
+        <Con id="44" src="9" tgt="14" wght="5" />
+        <Con id="74" src="16" tgt="16" wght="1.474908089116405" />
+        <Con id="82" src="2" tgt="14" wght="-0.27272264316413974" />
+      </Connections>
+    </Network>
+    <Network id="6220" birthGen="50" fitness="0.281" realFitness="0.281" novelty="0.021" diversity="0.144108495823129">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="0.82374259846278763" />
+        <Con id="28" src="3" tgt="16" wght="0.060475676267658852" />
+        <Con id="44" src="9" tgt="14" wght="5" />
+        <Con id="74" src="16" tgt="16" wght="0.67286815463715455" />
+        <Con id="82" src="2" tgt="14" wght="-0.27272264316413974" />
+      </Connections>
+    </Network>
+    <Network id="6221" birthGen="50" fitness="0.2995" realFitness="0.2995" novelty="0.0126666666666666" diversity="0.118616643912386">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="1.6551575171584823" />
+        <Con id="28" src="3" tgt="16" wght="0.060475676267658852" />
+        <Con id="44" src="9" tgt="14" wght="4.44659244796116" />
+        <Con id="74" src="16" tgt="16" wght="1.474908089116405" />
+        <Con id="82" src="2" tgt="14" wght="-0.27272264316413974" />
+      </Connections>
+    </Network>
+    <Network id="6222" birthGen="50" fitness="0.3365" realFitness="0.3365" novelty="0.0143333333333333" diversity="0.155349850540358">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="1.6635567404142273" />
+        <Con id="28" src="3" tgt="16" wght="0.060475676267658852" />
+        <Con id="44" src="9" tgt="14" wght="4.44659244796116" />
+        <Con id="74" src="16" tgt="16" wght="2.7744070029571666" />
+        <Con id="82" src="2" tgt="14" wght="-0.27272264316413974" />
+      </Connections>
+    </Network>
+    <Network id="6223" birthGen="50" fitness="0.33999999999999997" realFitness="0.34" novelty="0.0156666666666666" diversity="0.141940504246426">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="1.6551575171584823" />
+        <Con id="28" src="3" tgt="16" wght="0.072356274488476535" />
+        <Con id="44" src="9" tgt="14" wght="5" />
+        <Con id="67" src="13" tgt="14" wght="-3.821809172281859" />
+        <Con id="74" src="16" tgt="16" wght="0.67286815463715455" />
+        <Con id="82" src="2" tgt="14" wght="-0.27272264316413974" />
+      </Connections>
+    </Network>
+    <Network id="6224" birthGen="50" fitness="0.363" realFitness="0.363" novelty="0.0353333333333333" diversity="0.131604061612173">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="1.6551575171584823" />
+        <Con id="28" src="3" tgt="16" wght="0.060475676267658852" />
+        <Con id="44" src="9" tgt="14" wght="5" />
+        <Con id="74" src="16" tgt="16" wght="0.67286815463715455" />
+        <Con id="82" src="2" tgt="14" wght="-0.27272264316413974" />
+      </Connections>
+    </Network>
+    <Network id="6225" birthGen="50" fitness="0.2955" realFitness="0.2955" novelty="0.0123333333333333" diversity="0.118616643912386">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="1.6551575171584823" />
+        <Con id="28" src="3" tgt="16" wght="0.060475676267658852" />
+        <Con id="44" src="9" tgt="14" wght="4.44659244796116" />
+        <Con id="74" src="16" tgt="16" wght="1.474908089116405" />
+        <Con id="82" src="2" tgt="14" wght="-0.27272264316413974" />
+      </Connections>
+    </Network>
+    <Network id="6226" birthGen="50" fitness="0.2975" realFitness="0.2975" novelty="0.0103333333333333" diversity="0.372328952455713">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="0.060358201153576374" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6227" birthGen="50" fitness="0.298" realFitness="0.298" novelty="0.0106666666666667" diversity="0.105119663517793">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-5" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-3.6186732853601851" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6228" birthGen="50" fitness="0.2585" realFitness="0.2585" novelty="0.0205" diversity="0.0333390594985314">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.1575831610983158" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0595299085425163" />
+        <Con id="61" src="6" tgt="14" wght="-2.243269420954725" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6229" birthGen="50" fitness="0.337" realFitness="0.337" novelty="0.0141666666666666" diversity="0.0305399939537362">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-3.2981836842373013" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6230" birthGen="50" fitness="0.3245" realFitness="0.3245" novelty="0.0141666666666666" diversity="0.0329662315326127">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.7756211665870478" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.03918039636617" />
+        <Con id="61" src="6" tgt="14" wght="-2.2299985429228784" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6231" birthGen="50" fitness="0.26" realFitness="0.26" novelty="0.0196666666666666" diversity="0.586781881841157">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="2.1125636575743556" />
+        <Con id="39" src="7" tgt="15" wght="-0.60014334507286549" />
+        <Con id="44" src="9" tgt="14" wght="-0.22269782610237598" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6232" birthGen="50" fitness="0.2875" realFitness="0.2875" novelty="0.02" diversity="0.0305399939537362">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-3.2981836842373013" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6233" birthGen="50" fitness="0.3215" realFitness="0.3215" novelty="0.0198333333333334" diversity="0.03052820991597">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6234" birthGen="50" fitness="0.33199999999999996" realFitness="0.332" novelty="0.0226666666666667" diversity="0.0305399939537362">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-3.2981836842373013" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6235" birthGen="50" fitness="0.367" realFitness="0.367" novelty="0.036" diversity="0.0305399939537362">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-3.2981836842373013" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6236" birthGen="50" fitness="0.39449999999999996" realFitness="0.3945" novelty="0.0766666666666666" diversity="0.0305399939537362">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-3.2981836842373013" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6237" birthGen="50" fitness="0.27949999999999997" realFitness="0.2795" novelty="0.0211666666666667" diversity="0.0362714168684192">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.7872869566389915" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0355058542495925" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-4.29012311257332" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6238" birthGen="50" fitness="0.23900000000000002" realFitness="0.239" novelty="0.0411666666666667" diversity="0.168161864412295">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="1.1447016031075141" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-3.3022191378809818" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-4.29012311257332" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6239" birthGen="50" fitness="0.244" realFitness="0.244" novelty="0.0375" diversity="0.38978929486323">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="3.4481481788679957" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="0.63377850223332644" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-4.29012311257332" />
+        <Con id="80" src="9" tgt="79" wght="0.34967427607625723" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6240" birthGen="50" fitness="0.294" realFitness="0.294" novelty="0.0153333333333334" diversity="0.0657783087376538">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-4.7290961820459616" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6241" birthGen="50" fitness="0.302" realFitness="0.302" novelty="0.0158333333333333" diversity="0.0690902858063888">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-4.29012311257332" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.1515518724918365" />
+      </Connections>
+    </Network>
+    <Network id="6242" birthGen="50" fitness="0.33849999999999997" realFitness="0.3385" novelty="0.0141666666666666" diversity="0.185342419946848">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.1879664340608591" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-4.29012311257332" />
+        <Con id="80" src="9" tgt="79" wght="-3.5330753071036729" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6243" birthGen="50" fitness="0.324" realFitness="0.324" novelty="0.0145" diversity="0.379008245102977">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-4.29012311257332" />
+        <Con id="80" src="9" tgt="79" wght="2.4977939296513796" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6244" birthGen="50" fitness="0.329" realFitness="0.329" novelty="0.0206666666666667" diversity="0.0350501938745689">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-4.29012311257332" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6245" birthGen="50" fitness="0.258" realFitness="0.258" novelty="0.0215" diversity="0.0371600246510167">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0347377963220863" />
+        <Con id="61" src="6" tgt="14" wght="-2.2415716132466308" />
+        <Con id="69" src="12" tgt="16" wght="-4.29012311257332" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6246" birthGen="50" fitness="0.313" realFitness="0.313" novelty="0.0176666666666666" diversity="0.0363967900240788">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.1690447839147025" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2231907558457462" />
+        <Con id="69" src="12" tgt="16" wght="-4.29012311257332" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6247" birthGen="50" fitness="0.312" realFitness="0.312" novelty="0.0163333333333333" diversity="0.0373937690189816">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.7879645397874708" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.046208155340511675" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-4.29012311257332" />
+        <Con id="80" src="9" tgt="79" wght="-4.9791765988437415" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6248" birthGen="50" fitness="0.3235" realFitness="0.3235" novelty="0.0153333333333334" diversity="0.0363860899413034">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="4.9840695597972111" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-4.29012311257332" />
+        <Con id="80" src="9" tgt="79" wght="-5" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6249" birthGen="50" fitness="0.3365" realFitness="0.3365" novelty="0.0143333333333333" diversity="0.0355576951851181">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="5" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-4.29012311257332" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6450889188113953" />
+      </Connections>
+    </Network>
+    <Network id="6250" birthGen="50" fitness="0.3135" realFitness="0.3135" novelty="0.0183333333333333" diversity="0.130769393094854">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.15522118597181" />
+        <Con id="28" src="3" tgt="16" wght="0.041299482469377806" />
+        <Con id="39" src="7" tgt="15" wght="3.6554906564800858" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="-2.2168750176206231" />
+        <Con id="69" src="12" tgt="16" wght="-4.29012311257332" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6251" birthGen="50" fitness="0.23900000000000002" realFitness="0.239" novelty="0.0411666666666667" diversity="0.0748207015470938">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.2081265684772946" />
+        <Con id="28" src="3" tgt="16" wght="-3.0128298560157418" />
+        <Con id="39" src="7" tgt="15" wght="-3.3925117505714297" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="1.2637667264789343" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.66338329165902" />
+      </Connections>
+    </Network>
+    <Network id="6252" birthGen="50" fitness="0.362" realFitness="0.362" novelty="0.0363333333333333" diversity="0.0772489311042469">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.2081265684772946" />
+        <Con id="28" src="3" tgt="16" wght="-3.0128298560157418" />
+        <Con id="39" src="7" tgt="15" wght="-3.3529643125388446" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="1.2637667264789343" />
+        <Con id="69" src="12" tgt="16" wght="-3.2935739029329585" />
+        <Con id="80" src="9" tgt="79" wght="-4.9681994468621422" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6253" birthGen="50" fitness="0.2965" realFitness="0.2965" novelty="0.011" diversity="0.0733355958583413">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.2081265684772946" />
+        <Con id="28" src="3" tgt="16" wght="-3.0128298560157418" />
+        <Con id="39" src="7" tgt="15" wght="-3.3925117505714297" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="1.2664633382217287" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6254" birthGen="50" fitness="0.27949999999999997" realFitness="0.2795" novelty="0.0211666666666667" diversity="0.0996981480980063">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.2081265684772946" />
+        <Con id="28" src="3" tgt="16" wght="-2.6583762556979655" />
+        <Con id="39" src="7" tgt="15" wght="-3.5186753939950512" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="1.2637667264789343" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6255" birthGen="50" fitness="0.238" realFitness="0.238" novelty="0.0435" diversity="0.0738311549223824">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.2081265684772946" />
+        <Con id="28" src="3" tgt="16" wght="-3.0128298560157418" />
+        <Con id="39" src="7" tgt="15" wght="-3.3925117505714297" />
+        <Con id="44" src="9" tgt="14" wght="-4.0327673917377336" />
+        <Con id="61" src="6" tgt="14" wght="1.2637667264789343" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6256" birthGen="50" fitness="0.29700000000000004" realFitness="0.297" novelty="0.0106666666666667" diversity="0.138354860396837">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.2277842861473527" />
+        <Con id="28" src="3" tgt="16" wght="-2.9041080433584696" />
+        <Con id="39" src="7" tgt="15" wght="-3.3925117505714297" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="1.2637667264789343" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-3.72744373360449" />
+      </Connections>
+    </Network>
+    <Network id="6257" birthGen="50" fitness="0.391" realFitness="0.391" novelty="0.0650000000000001" diversity="0.0739436810993029">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.1907184572718892" />
+        <Con id="28" src="3" tgt="16" wght="-3.0128298560157418" />
+        <Con id="39" src="7" tgt="15" wght="-3.3925117505714297" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="1.2637667264789343" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6258" birthGen="50" fitness="0.33999999999999997" realFitness="0.34" novelty="0.0156666666666666" diversity="0.0738516958055495">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.2081265684772946" />
+        <Con id="28" src="3" tgt="16" wght="-3.0254003962064657" />
+        <Con id="39" src="7" tgt="15" wght="-3.3925117505714297" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="1.2637667264789343" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6259" birthGen="50" fitness="0.29900000000000004" realFitness="0.299" novelty="0.0121666666666667" diversity="0.075957404492574">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.2081265684772946" />
+        <Con id="28" src="3" tgt="16" wght="-3.0128298560157418" />
+        <Con id="39" src="7" tgt="15" wght="-3.3925117505714297" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="1.2637667264789343" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9622155187176542" />
+        <Con id="81" src="79" tgt="14" wght="-4.6227014263029025" />
+      </Connections>
+    </Network>
+    <Network id="6260" birthGen="50" fitness="0.3175" realFitness="0.3175" novelty="0.0248333333333334" diversity="0.335606412508777">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="0.71084944531321526" />
+        <Con id="28" src="3" tgt="16" wght="-2.2870657220482826" />
+        <Con id="39" src="7" tgt="15" wght="-3.3925117505714297" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="1.2637667264789343" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6261" birthGen="50" fitness="0.311" realFitness="0.311" novelty="0.0155" diversity="0.0836313347945012">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.2081265684772946" />
+        <Con id="28" src="3" tgt="16" wght="-3.1758563806518763" />
+        <Con id="39" src="7" tgt="15" wght="-3.3925117505714297" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="1.2637667264789343" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6262" birthGen="50" fitness="0.325" realFitness="0.325" novelty="0.0145" diversity="0.156639428449665">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="5" />
+        <Con id="24" src="2" tgt="15" wght="4.2081265684772946" />
+        <Con id="28" src="3" tgt="16" wght="-3.0128298560157418" />
+        <Con id="39" src="7" tgt="15" wght="-3.3925117505714297" />
+        <Con id="44" src="9" tgt="14" wght="-4.1234470037516981" />
+        <Con id="61" src="6" tgt="14" wght="1.2637667264789343" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6263" birthGen="50" fitness="0.298" realFitness="0.298" novelty="0.0106666666666667" diversity="0.200926671771048">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.2081265684772946" />
+        <Con id="28" src="3" tgt="16" wght="-3.0128298560157418" />
+        <Con id="39" src="7" tgt="15" wght="-1.3360683777664688" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="1.2637667264789343" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+    <Network id="6264" birthGen="50" fitness="0.314" realFitness="0.314" novelty="0.0196666666666667" diversity="0.0744126350025144">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="in" id="5" />
+        <Node type="in" id="6" />
+        <Node type="in" id="7" />
+        <Node type="in" id="8" />
+        <Node type="in" id="9" />
+        <Node type="in" id="10" />
+        <Node type="in" id="11" />
+        <Node type="in" id="12" />
+        <Node type="in" id="13" />
+        <Node type="out" id="14" />
+        <Node type="out" id="15" />
+        <Node type="out" id="16" />
+        <Node type="hid" id="79" />
+      </Nodes>
+      <Connections>
+        <Con id="17" src="0" tgt="14" wght="3.8006827933713794" />
+        <Con id="24" src="2" tgt="15" wght="4.1892454937174231" />
+        <Con id="28" src="3" tgt="16" wght="-3.0128298560157418" />
+        <Con id="39" src="7" tgt="15" wght="-3.3995652216208079" />
+        <Con id="44" src="9" tgt="14" wght="-4.0423508035566291" />
+        <Con id="61" src="6" tgt="14" wght="1.2637667264789343" />
+        <Con id="69" src="12" tgt="16" wght="-3.2987728861256085" />
+        <Con id="80" src="9" tgt="79" wght="-4.9968462106780107" />
+        <Con id="81" src="79" tgt="14" wght="-4.6378389000892639" />
+      </Connections>
+    </Network>
+  </Networks>
+</Root>

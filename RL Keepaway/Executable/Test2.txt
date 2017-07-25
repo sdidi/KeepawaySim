@@ -1,0 +1,8 @@
+Using given Hetero Player Seed: -1221799874
+Gets here before it calls main program visualize = 0 and learning =1
+Gets to call main program 
+There is collision noted
+example data retrieved is size =1048576 and safety = 1 
+Gets to call AllEpisodes
+Gets to NextEpisode() 0 times
+Initialises the players well 

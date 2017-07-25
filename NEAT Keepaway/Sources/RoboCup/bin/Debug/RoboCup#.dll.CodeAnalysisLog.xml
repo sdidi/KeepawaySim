@@ -1,0 +1,1487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 9.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="1.36">
+ <Targets>
+  <Target Name="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\bin\Debug\RoboCup#.dll">
+   <Modules>
+    <Module Name="robocup#.dll">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'RoboCup#.dll' with a strong name key.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Warning">Because assembly 'RoboCup#.dll' contains a ResX-based resource file, mark it with the NeutralResourcesLanguage attribute, specifying the language of the resources within the assembly. This could improve lookup performance the first time a resource is retrieved.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="RoboCup">
+       <Types>
+        <Type Name="FieldVisualizer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#FieldVisualizer_Paint(System.Object,System.Windows.Forms.PaintEventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Double.ToString(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FieldVisualizer.cs" Line="42">Because the behavior of 'double.ToString(string)' could vary based on the current user's locale settings, replace this call in 'FieldVisualizer.FieldVisualizer_Paint(object, PaintEventArgs)' with a call to 'double.ToString(string, IFormatProvider)'. If the result of 'double.ToString(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OnStadiumUpdate(RoboCup.Stadium)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="std" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FieldVisualizer.cs" Line="110">'std', a parameter declared in 'FieldVisualizer.OnStadiumUpdate(Stadium)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FixedHalffieldPlayer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#bestGoalShot()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedHalffieldPlayer.cs" Line="699">'FixedHalffieldPlayer.bestGoalShot()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#findClosestToLine(RoboCup.Line)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedHalffieldPlayer.cs" Line="724">'FixedHalffieldPlayer.findClosestToLine(Line)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#goalRect" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'FixedHalffieldPlayer.goalRect' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#interceptFeatureCompletionTime" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'FixedHalffieldPlayer.interceptFeatureCompletionTime' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#isInField(RoboCup.Geometry.Vector,System.Double)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedHalffieldPlayer.cs" Line="647">The 'this' parameter (or 'Me' in Visual Basic) of 'FixedHalffieldPlayer.isInField(Vector, double)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+            <Message Id="dMargin" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedHalffieldPlayer.cs" Line="647">Parameter 'dMargin' of 'FixedHalffieldPlayer.isInField(Vector, double)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#lastAction" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'FixedHalffieldPlayer.lastAction' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#lastActionTime" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'FixedHalffieldPlayer.lastActionTime' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#markMostOpenOpponent(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="withBall-1" TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="CriticalWarning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedHalffieldPlayer.cs" Line="65">Correct the potential overflow in the operation 'withBall-1' in 'FixedHalffieldPlayer.markMostOpenOpponent(int)'.</Issue>
+             <Issue Certainty="75" Level="CriticalWarning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedHalffieldPlayer.cs" Line="65">Correct the potential overflow in the operation 'withBall-1' in 'FixedHalffieldPlayer.markMostOpenOpponent(int)'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#offenseWithBall()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedHalffieldPlayer.cs" Line="695">The 'this' parameter (or 'Me' in Visual Basic) of 'FixedHalffieldPlayer.offenseWithBall()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#posToPass" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'FixedHalffieldPlayer.posToPass' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#posToPassOffense" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'FixedHalffieldPlayer.posToPassOffense' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#predictCommandToInterceptBall(RoboCup.FullPlayerData,RoboCup.FixedKeepawayPlayer+Command)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedHalffieldPlayer.cs" Line="476">'FixedHalffieldPlayer.predictCommandToInterceptBall(FullPlayerData, FixedKeepawayPlayer.Command)' has a cyclomatic complexity of 29. Rewrite or refactor the method to reduce complexity to 25.</Issue>
+            </Message>
+            <Message Id="RoboCup.Geometry.Vector" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedHalffieldPlayer.cs" Line="528">'FixedHalffieldPlayer.predictCommandToInterceptBall(FullPlayerData, FixedKeepawayPlayer.Command)' creates a new instance of 'Vector' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FixedKeepawayPlayer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#getActualTurnAngle(System.Double,System.Double,RoboCup.FullPlayerData)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="o" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1900">Parameter 'o' of 'FixedKeepawayPlayer.getActualTurnAngle(double, double, FullPlayerData)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getAngleForTurn(System.Double,System.Double,RoboCup.FullPlayerData)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="obj" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1996">Parameter 'obj' of 'FixedKeepawayPlayer.getAngleForTurn(double, double, FullPlayerData)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getClosestInSetTo(RoboCup.Geometry.Vector[],RoboCup.Geometry.Vector,System.Double&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1534">The 'this' parameter (or 'Me' in Visual Basic) of 'FixedKeepawayPlayer.getClosestInSetTo(Vector[], Vector, ref double)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getFastestInSetTo(System.Collections.Generic.Dictionary`2&lt;System.Int32,RoboCup.FullPlayerData&gt;,RoboCup.Geometry.Vector,System.Int32&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="RoboCup.Geometry.Vector" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1716">'FixedKeepawayPlayer.getFastestInSetTo(Dictionary&lt;int, FullPlayerData&gt;, Vector, ref int)' creates a new instance of 'Vector' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
+            </Message>
+            <Message Id="obj" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1714">Parameter 'obj' of 'FixedKeepawayPlayer.getFastestInSetTo(Dictionary&lt;int, FullPlayerData&gt;, Vector, ref int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getFirstSpeedFromDist(System.Double,System.Double,System.Double)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1984">The 'this' parameter (or 'Me' in Visual Basic) of 'FixedKeepawayPlayer.getFirstSpeedFromDist(double, double, double)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getMarkingPosition(RoboCup.Geometry.Vector,System.Double)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="RoboCup.Geometry.Vector" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="372">'FixedKeepawayPlayer.getMarkingPosition(Vector, double)' creates a new instance of 'Vector' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getNrInSetInCone(RoboCup.Geometry.Vector[],System.Double,RoboCup.Geometry.Vector,RoboCup.Geometry.Vector)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="847">The 'this' parameter (or 'Me' in Visual Basic) of 'FixedKeepawayPlayer.getNrInSetInCone(Vector[], double, Vector, Vector)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#interceptClose()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1311">'FixedKeepawayPlayer.interceptClose()' has a cyclomatic complexity of 35. Rewrite or refactor the method to reduce complexity to 25.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#isInField(RoboCup.Geometry.Vector,System.Double)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dMargin" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1303">Parameter 'dMargin' of 'FixedKeepawayPlayer.isInField(Vector, double)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#lastAction" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'FixedKeepawayPlayer.lastAction' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#lastActionTime" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'FixedKeepawayPlayer.lastActionTime' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#leastCongestedPointForPassInRectangle(RoboCup.Geometry.Rectangle,RoboCup.Geometry.Vector)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rect" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="777">Parameter 'rect' of 'FixedKeepawayPlayer.leastCongestedPointForPassInRectangle(Rectangle, Vector)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#normalizeAngle(System.Double)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'FixedKeepawayPlayer.normalizeAngle(double)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#predictCommandToInterceptBall(RoboCup.FullPlayerData,RoboCup.FixedKeepawayPlayer+Command)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1130">'FixedKeepawayPlayer.predictCommandToInterceptBall(FullPlayerData, FixedKeepawayPlayer.Command)' has a cyclomatic complexity of 33. Rewrite or refactor the method to reduce complexity to 25.</Issue>
+            </Message>
+            <Message Id="RoboCup.Geometry.Vector" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1138">'FixedKeepawayPlayer.predictCommandToInterceptBall(FullPlayerData, FixedKeepawayPlayer.Command)' creates a new instance of 'Vector' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
+             <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1183">'FixedKeepawayPlayer.predictCommandToInterceptBall(FullPlayerData, FixedKeepawayPlayer.Command)' creates a new instance of 'Vector' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
+             <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1291">'FixedKeepawayPlayer.predictCommandToInterceptBall(FullPlayerData, FixedKeepawayPlayer.Command)' creates a new instance of 'Vector' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
+             <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1292">'FixedKeepawayPlayer.predictCommandToInterceptBall(FullPlayerData, FixedKeepawayPlayer.Command)' creates a new instance of 'Vector' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#predictCommandToInterceptBallOld(RoboCup.FullPlayerData,RoboCup.FixedKeepawayPlayer+Command)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="961">'FixedKeepawayPlayer.predictCommandToInterceptBallOld(FullPlayerData, FixedKeepawayPlayer.Command)' has a cyclomatic complexity of 29. Rewrite or refactor the method to reduce complexity to 25.</Issue>
+            </Message>
+            <Message Id="RoboCup.Geometry.Vector" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="969">'FixedKeepawayPlayer.predictCommandToInterceptBallOld(FullPlayerData, FixedKeepawayPlayer.Command)' creates a new instance of 'Vector' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
+             <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1010">'FixedKeepawayPlayer.predictCommandToInterceptBallOld(FullPlayerData, FixedKeepawayPlayer.Command)' creates a new instance of 'Vector' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
+             <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1118">'FixedKeepawayPlayer.predictCommandToInterceptBallOld(FullPlayerData, FixedKeepawayPlayer.Command)' creates a new instance of 'Vector' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
+             <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1119">'FixedKeepawayPlayer.predictCommandToInterceptBallOld(FullPlayerData, FixedKeepawayPlayer.Command)' creates a new instance of 'Vector' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#predictNrCyclesForDistance(RoboCup.FullPlayerData,System.Double,System.Double)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="o" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1838">Parameter 'o' of 'FixedKeepawayPlayer.predictNrCyclesForDistance(FullPlayerData, double, double)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#predictStateAfterCommand(RoboCup.FixedKeepawayPlayer+Command,RoboCup.Geometry.Vector,RoboCup.Geometry.Vector,System.Double&amp;,System.Double&amp;,RoboCup.FullPlayerData)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="angGlobalNeck" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1868">Parameter 'angGlobalNeck' of 'FixedKeepawayPlayer.predictStateAfterCommand(FixedKeepawayPlayer.Command, Vector, Vector, ref double, ref double, FullPlayerData)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#predictStateAfterDash(System.Double,RoboCup.Geometry.Vector,RoboCup.Geometry.Vector,System.Double,RoboCup.FullPlayerData)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="obj" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="FixedKeepawayPlayer.cs" Line="1906">Parameter 'obj' of 'FixedKeepawayPlayer.predictStateAfterDash(double, Vector, Vector, double, FullPlayerData)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FixedKeepawayPlayer+Command" Kind="Struct" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OverrideEqualsAndOperatorEqualsOnValueTypes" Category="Microsoft.Performance" CheckId="CA1815" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+           <Issue Name="Equals" Certainty="75" Level="Warning">'FixedKeepawayPlayer.Command' should override Equals.</Issue>
+           <Issue Name="op_Equality" Certainty="75" Level="Warning">'FixedKeepawayPlayer.Command' should override the equality (==) and inequality (!=) operators.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ObjectData" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#comboBox1_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Int32.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="ObjectData.cs" Line="29">Because the behavior of 'int.Parse(string)' could vary based on the current user's locale settings, replace this call in 'ObjectData.comboBox1_SelectedIndexChanged(object, EventArgs)' with a call to 'int.Parse(string, IFormatProvider)'. If the result of 'int.Parse(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="ObjectData.cs" Line="36">Because the behavior of 'int.Parse(string)' could vary based on the current user's locale settings, replace this call in 'ObjectData.comboBox1_SelectedIndexChanged(object, EventArgs)' with a call to 'int.Parse(string, IFormatProvider)'. If the result of 'int.Parse(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+            <Message Id="System.Single.ToString(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="ObjectData.cs" Line="41">Because the behavior of 'float.ToString(string)' could vary based on the current user's locale settings, replace this call in 'ObjectData.comboBox1_SelectedIndexChanged(object, EventArgs)' with a call to 'float.ToString(string, IFormatProvider)'. If the result of 'float.ToString(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="ObjectData.cs" Line="42">Because the behavior of 'float.ToString(string)' could vary based on the current user's locale settings, replace this call in 'ObjectData.comboBox1_SelectedIndexChanged(object, EventArgs)' with a call to 'float.ToString(string, IFormatProvider)'. If the result of 'float.ToString(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="ObjectData.cs" Line="43">Because the behavior of 'float.ToString(string)' could vary based on the current user's locale settings, replace this call in 'ObjectData.comboBox1_SelectedIndexChanged(object, EventArgs)' with a call to 'float.ToString(string, IFormatProvider)'. If the result of 'float.ToString(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="ObjectData.cs" Line="44">Because the behavior of 'float.ToString(string)' could vary based on the current user's locale settings, replace this call in 'ObjectData.comboBox1_SelectedIndexChanged(object, EventArgs)' with a call to 'float.ToString(string, IFormatProvider)'. If the result of 'float.ToString(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#updateVals(RoboCup.ObjectData)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="ObjectData.cs" Line="90">The 'this' parameter (or 'Me' in Visual Basic) of 'ObjectData.updateVals(ObjectData)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+            <Message Id="System.Int32.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="ObjectData.cs" Line="95">Because the behavior of 'int.Parse(string)' could vary based on the current user's locale settings, replace this call in 'ObjectData.updateVals(ObjectData)' with a call to 'int.Parse(string, IFormatProvider)'. If the result of 'int.Parse(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="ObjectData.cs" Line="102">Because the behavior of 'int.Parse(string)' could vary based on the current user's locale settings, replace this call in 'ObjectData.updateVals(ObjectData)' with a call to 'int.Parse(string, IFormatProvider)'. If the result of 'int.Parse(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+            <Message Id="System.Single.ToString(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="ObjectData.cs" Line="109">Because the behavior of 'float.ToString(string)' could vary based on the current user's locale settings, replace this call in 'ObjectData.updateVals(ObjectData)' with a call to 'float.ToString(string, IFormatProvider)'. If the result of 'float.ToString(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="ObjectData.cs" Line="110">Because the behavior of 'float.ToString(string)' could vary based on the current user's locale settings, replace this call in 'ObjectData.updateVals(ObjectData)' with a call to 'float.ToString(string, IFormatProvider)'. If the result of 'float.ToString(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="ObjectData.cs" Line="111">Because the behavior of 'float.ToString(string)' could vary based on the current user's locale settings, replace this call in 'ObjectData.updateVals(ObjectData)' with a call to 'float.ToString(string, IFormatProvider)'. If the result of 'float.ToString(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup" File="ObjectData.cs" Line="112">Because the behavior of 'float.ToString(string)' could vary based on the current user's locale settings, replace this call in 'ObjectData.updateVals(ObjectData)' with a call to 'float.ToString(string, IFormatProvider)'. If the result of 'float.ToString(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Server" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+           <Issue Name="System" Certainty="95" Level="Error">The type name 'Server' conflicts in whole or in part with the namespace name 'Microsoft.SqlServer.Server' defined in the .NET Framework. Rename the type to eliminate the conflict.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#OnCycle" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error">Rename 'StadiumUpdates' to end in 'EventHandler'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Stadium" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="151">'Stadium.Stadium()' initializes field 'Stadium.Ball' of type 'Ball' to null. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="153">'Stadium.Stadium()' initializes field 'Stadium.Time' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ballCatchFailed()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="978">'Stadium.ballCatchFailed()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ballPosInfo()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="449">'Stadium.ballPosInfo()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#broadcastSubstitution(System.String,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="1014">'Stadium.broadcastSubstitution(string, int, int)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#calcCollPos(RoboCup.Objects.MovableObject,RoboCup.Objects.MovableObject)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="819">The 'this' parameter (or 'Me' in Visual Basic) of 'Stadium.calcCollPos(MovableObject, MovableObject)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#movePlayer(System.String,System.Int32,RoboCup.Geometry.Vector)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="556">'Stadium.movePlayer(string, int, Vector)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#movePlayer(System.String,System.Int32,RoboCup.Geometry.Vector,RoboCup.Geometry.Vector)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="583">'Stadium.movePlayer(string, int, Vector, Vector)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#movePlayer(System.String,System.Int32,RoboCup.Geometry.Vector,System.Single)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="569">'Stadium.movePlayer(string, int, Vector, float)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#movePlayer(System.String,System.Int32,RoboCup.Geometry.Vector,System.Single,RoboCup.Geometry.Vector)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">'Stadium.movePlayer(string, int, Vector, float, Vector)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#randomShuffleList`1(System.Collections.Generic.List`1&lt;!!0&gt;)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="508">The 'this' parameter (or 'Me' in Visual Basic) of 'Stadium.randomShuffleList&lt;T&gt;(List&lt;T&gt;)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#recoveryPlayers()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="430">'Stadium.recoveryPlayers()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#set_ball(RoboCup.Geometry.Vector,RoboCup.Geometry.Vector)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="353">'Stadium.set_ball(Vector, Vector)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#set_ball(System.String,RoboCup.Geometry.Vector,System.Int32)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message Id="kick_off_side" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="378">Parameter 'kick_off_side' of 'Stadium.set_ball(string, Vector, int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setHalfTime(System.Int32)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="393">'Stadium.setHalfTime(int)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setPlayerState(System.String,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">'Stadium.setPlayerState(string, int, int)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#substitute(RoboCup.Objects.Player,System.Int32)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Stadium.cs" Line="705">'Stadium.substitute(Player, int)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Utilities" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#lcm(System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Utilities.cs" Line="346">'Utilities.lcm(int, int)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Utilities+Random" Kind="Class" Accessibility="Public" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Next()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Utilities.cs" Line="221">'Utilities.Random.Next()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Next(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Name="NoArguments" Certainty="95" Level="CriticalError" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Utilities.cs" Line="230">Call the 'ArgumentOutOfRangeException' constructor that contains a message and/or paramName parameter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Next(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Name="NoArguments" Certainty="95" Level="CriticalError" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Utilities.cs" Line="243">Call the 'ArgumentOutOfRangeException' constructor that contains a message and/or paramName parameter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#NextBytes(System.Byte[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Utilities.cs" Line="257">'Utilities.Random.NextBytes(byte[])' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Name="NoArguments" Certainty="95" Level="CriticalError" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Utilities.cs" Line="261">Call the 'ArgumentNullException' constructor that contains a message and/or paramName parameter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#NextGuassian(System.Double,System.Double)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Utilities.cs" Line="289">'Utilities.Random.NextGuassian(double, double)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#NextUInt(System.UInt32,System.UInt32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Name="NoArguments" Certainty="95" Level="CriticalError" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Utilities.cs" Line="213">Call the 'ArgumentOutOfRangeException' constructor that contains a message and/or paramName parameter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="VisualData" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#flags" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="flags" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Name="MemberNoAlternate" Certainty="95" Level="Error">Replace the term 'flags' in member name 'VisualData.flags' with an appropriate alternate or remove it entirely.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="RoboCup.Environment">
+       <Types>
+        <Type Name="Field" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#addFlag(RoboCup.Environment.Field+flag_t)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Field.cs" Line="492">'Field.addFlag(Field.flag_t)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#addFlag(RoboCup.Environment.Field+flag_t,System.Boolean)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Field.cs" Line="507">'Field.addFlag(Field.flag_t, bool)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#addLandmark(RoboCup.Objects.BasicObject)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Field.cs" Line="530">'Field.addLandmark(BasicObject)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#loadDefaults()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Field.cs" Line="355">'Field.loadDefaults()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Field+flag_t" Kind="Struct" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#percentify(RoboCup.Environment.Field+rect_t,System.Boolean,System.Boolean)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Field.cs" Line="82">'Field.flag_t.percentify(Field.rect_t, bool, bool)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Field+goal_mouth_t" Kind="Struct" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#toRect(RoboCup.Environment.Field+rect_t)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Field.cs" Line="55">'Field.goal_mouth_t.toRect(Field.rect_t)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Field+rect_t" Kind="Struct" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#percentify(RoboCup.Environment.Field+rect_t,System.Boolean,System.Boolean,System.Boolean,System.Boolean)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Field.cs" Line="120">'Field.rect_t.percentify(Field.rect_t, bool, bool, bool, bool)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Weather" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Weather.cs" Line="64">'Weather.Weather()' initializes field 'Weather.wind_rand' of type 'float' to 0.0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="RoboCup.Geometry">
+       <Types>
+        <Type Name="Circle" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetHashCode()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Single.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Circle.cs" Line="118">Because the behavior of 'float.ToString()' could vary based on the current user's locale settings, replace this call in 'Circle.GetHashCode()' with a call to 'float.ToString(IFormatProvider)'. If the result of 'float.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Circle.cs" Line="118">Because the behavior of 'float.ToString()' could vary based on the current user's locale settings, replace this call in 'Circle.GetHashCode()' with a call to 'float.ToString(IFormatProvider)'. If the result of 'float.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Circle.cs" Line="118">Because the behavior of 'float.ToString()' could vary based on the current user's locale settings, replace this call in 'Circle.GetHashCode()' with a call to 'float.ToString(IFormatProvider)'. If the result of 'float.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Vector" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Vector.cs" Line="116">'Vector.Vector(float, float)' initializes field 'Vector.Z' of type 'float' to 0.0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetHashCode()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Single.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Vector.cs" Line="162">Because the behavior of 'float.ToString()' could vary based on the current user's locale settings, replace this call in 'Vector.GetHashCode()' with a call to 'float.ToString(IFormatProvider)'. If the result of 'float.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Vector.cs" Line="162">Because the behavior of 'float.ToString()' could vary based on the current user's locale settings, replace this call in 'Vector.GetHashCode()' with a call to 'float.ToString(IFormatProvider)'. If the result of 'float.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Vector.cs" Line="162">Because the behavior of 'float.ToString()' could vary based on the current user's locale settings, replace this call in 'Vector.GetHashCode()' with a call to 'float.ToString(IFormatProvider)'. If the result of 'float.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_Addition(RoboCup.Geometry.Vector,RoboCup.Geometry.Vector)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="OperatorOverloadsHaveNamedAlternates" Category="Microsoft.Usage" CheckId="CA2225" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Vector.cs" Line="356">Provide a method named 'Add' as a friendly alternate for operator 'Vector.operator +(Vector, Vector)'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_Division(RoboCup.Geometry.Vector,System.Single)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="OperatorOverloadsHaveNamedAlternates" Category="Microsoft.Usage" CheckId="CA2225" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Vector.cs" Line="402">Provide a method named 'Divide' as a friendly alternate for operator 'Vector.operator /(Vector, float)'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_Multiply(RoboCup.Geometry.Vector,RoboCup.Geometry.Vector)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="OperatorOverloadsHaveNamedAlternates" Category="Microsoft.Usage" CheckId="CA2225" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Vector.cs" Line="391">Provide a method named 'Multiply' as a friendly alternate for operator 'Vector.operator *(Vector, Vector)'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_Multiply(RoboCup.Geometry.Vector,System.Single)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="OperatorOverloadsHaveNamedAlternates" Category="Microsoft.Usage" CheckId="CA2225" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Vector.cs" Line="379">Provide a method named 'Multiply' as a friendly alternate for operator 'Vector.operator *(Vector, float)'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_Subtraction(RoboCup.Geometry.Vector,RoboCup.Geometry.Vector)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="OperatorOverloadsHaveNamedAlternates" Category="Microsoft.Usage" CheckId="CA2225" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Vector.cs" Line="367">Provide a method named 'Subtract' as a friendly alternate for operator 'Vector.operator -(Vector, Vector)'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_UnaryNegation(RoboCup.Geometry.Vector)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="OperatorOverloadsHaveNamedAlternates" Category="Microsoft.Usage" CheckId="CA2225" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Vector.cs" Line="342">Provide a method named 'Negate' as a friendly alternate for operator 'Vector.operator -(Vector)'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ToString()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Single.ToString(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Vector.cs" Line="171">Because the behavior of 'float.ToString(string)' could vary based on the current user's locale settings, replace this call in 'Vector.ToString()' with a call to 'float.ToString(string, IFormatProvider)'. If the result of 'float.ToString(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Vector.cs" Line="171">Because the behavior of 'float.ToString(string)' could vary based on the current user's locale settings, replace this call in 'Vector.ToString()' with a call to 'float.ToString(string, IFormatProvider)'. If the result of 'float.ToString(string, IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="RoboCup.Objects">
+       <Types>
+        <Type Name="AudioMsg" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="42">'AudioMsg.AudioMsg()' initializes field 'AudioMsg.time' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Ball" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor(RoboCup.Stadium)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Ball.cs" Line="48">'Ball.Ball(Stadium)' initializes field 'Ball.BallId' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BallId" Kind="Field" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'Ball.BallId' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="BasicObject" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.String,RoboCup.Geometry.Vector,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="v" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="BasicObject.cs" Line="89">Parameter 'v' of 'BasicObject.BasicObject(string, Vector, float)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ToString()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="BasicObject.cs" Line="149">Replace the call to 'string.operator !=(string, string)' in 'BasicObject.ToString()' with a call to 'String.IsNullOrEmpty'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MovableObject" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ToString()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="MovableObject.cs" Line="145">Replace the call to 'string.operator !=(string, string)' in 'MovableObject.ToString()' with a call to 'String.IsNullOrEmpty'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Player" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(RoboCup.Stadium,System.String,System.Int32,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="528">'Player.Player(Stadium, string, int, string)' initializes field 'Player.AngleBody' of type 'float' to 0.0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="529">'Player.Player(Stadium, string, int, string)' initializes field 'Player.AngleBodyCommitted' of type 'float' to 0.0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="530">'Player.Player(Stadium, string, int, string)' initializes field 'Player.AngleNeck' of type 'float' to 0.0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="531">'Player.Player(Stadium, string, int, string)' initializes field 'Player.AngleNeckCommitted' of type 'float' to 0.0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="532">'Player.Player(Stadium, string, int, string)' initializes field 'Player.AttentionToCount' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="536">'Player.Player(Stadium, string, int, string)' initializes field 'Player.BallCollide' of type 'bool' to false. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="551">'Player.Player(Stadium, string, int, string)' initializes field 'Player.CatchCount' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="554">'Player.Player(Stadium, string, int, string)' initializes field 'Player.ChangeViewCount' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="539">'Player.Player(Stadium, string, int, string)' initializes field 'Player.CommandDone' of type 'bool' to false. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="518">'Player.Player(Stadium, string, int, string)' initializes field 'Player.ConsumedStamina' of type 'float' to 0.0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="549">'Player.Player(Stadium, string, int, string)' initializes field 'Player.DashCount' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="544">'Player.Player(Stadium, string, int, string)' initializes field 'Player.Goalie' of type 'bool' to false. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="545">'Player.Player(Stadium, string, int, string)' initializes field 'Player.GoalieCatchBan' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="546">'Player.Player(Stadium, string, int, string)' initializes field 'Player.GoalieMovesSinceCatch' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="548">'Player.Player(Stadium, string, int, string)' initializes field 'Player.KickCount' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="547">'Player.Player(Stadium, string, int, string)' initializes field 'Player.KickCycles' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="552">'Player.Player(Stadium, string, int, string)' initializes field 'Player.MoveCount' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="561">'Player.Player(Stadium, string, int, string)' initializes field 'Player.OffsideMark' of type 'bool' to false. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="537">'Player.Player(Stadium, string, int, string)' initializes field 'Player.PlayerCollide' of type 'bool' to false. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="538">'Player.Player(Stadium, string, int, string)' initializes field 'Player.PostCollide' of type 'bool' to false. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="555">'Player.Player(Stadium, string, int, string)' initializes field 'Player.SayCount' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="535">'Player.Player(Stadium, string, int, string)' initializes field 'Player.State' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="559">'Player.Player(Stadium, string, int, string)' initializes field 'Player.TackleCount' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="558">'Player.Player(Stadium, string, int, string)' initializes field 'Player.TackleCycles' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="550">'Player.Player(Stadium, string, int, string)' initializes field 'Player.TurnCount' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="553">'Player.Player(Stadium, string, int, string)' initializes field 'Player.TurnNeckCount' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="540">'Player.Player(Stadium, string, int, string)' initializes field 'Player.TurnNeckDone' of type 'bool' to false. Remove this initialization because it will be done automatically by the runtime.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#attentionto(System.Boolean,System.String,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="name" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="1336">In member 'Player.attentionto(bool, string, int)', correct the casing of 'name' in parameter name 'team_name' by changing it to 'Name'.</Issue>
+            </Message>
+            <Message Id="unum" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="1336">In member 'Player.attentionto(bool, string, int)', correct the casing of 'unum' in parameter name 'at_unum' by changing it to 'Unum'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#calcLineRadDir(System.Double)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="normal" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="1775">In member 'Player.calcLineRadDir(double)', correct the casing of 'normal' in parameter name 'line_normal' by changing it to 'Normal'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ConsumedStamina" Kind="Field" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'Player.ConsumedStamina' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DirQStep" Kind="Property" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="482">The 'this' parameter (or 'Me' in Visual Basic) of 'Player.DirQStep' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DistQStep" Kind="Property" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="473">The 'this' parameter (or 'Me' in Visual Basic) of 'Player.DistQStep' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#dst(System.Single)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="1161">The 'this' parameter (or 'Me' in Visual Basic) of 'Player.dst(float)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ear(System.Boolean,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="name" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="1496">In member 'Player.ear(bool, string, string)', correct the casing of 'name' in parameter name 'team_name' by changing it to 'Name'.</Issue>
+            </Message>
+            <Message Id="complete" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Name="Local" Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="1496">'complete', a variable declared in 'Player.ear(bool, string, string)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+            <Message Id="partial" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Name="Local" Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="1496">'partial', a variable declared in 'Player.ear(bool, string, string)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getFocusCount()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="2723">'Player.getFocusCount()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getFocusTarget()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="2713">'Player.getFocusTarget()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GoalieMovesSinceCatch" Kind="Field" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'Player.GoalieMovesSinceCatch' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitSent" Kind="Field" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'Player.InitSent' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LandDistQStep" Kind="Property" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="465">The 'this' parameter (or 'Me' in Visual Basic) of 'Player.LandDistQStep' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#NormalizeTacklePower(System.Single)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="88">'Player.NormalizeTacklePower(float)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PlayerTypeId" Kind="Property" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_PlayerTypeId()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="424">'Player.PlayerTypeId.get()' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#recoverAll()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="2232">'Player.recoverAll()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#recoverStaminaCapacity()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="2249">'Player.recoverStaminaCapacity()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#resetCollisionFlags()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="2358">'Player.resetCollisionFlags()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sendCachedNonSelfPlayerAudio(RoboCup.Objects.Player,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="2654">Because the behavior of 'int.ToString()' could vary based on the current user's locale settings, replace this call in 'Player.sendCachedNonSelfPlayerAudio(Player, string)' with a call to 'int.ToString(IFormatProvider)'. If the result of 'int.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="2668">Because the behavior of 'int.ToString()' could vary based on the current user's locale settings, replace this call in 'Player.sendCachedNonSelfPlayerAudio(Player, string)' with a call to 'int.ToString(IFormatProvider)'. If the result of 'int.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sendCachedSelfAudio(RoboCup.Objects.Player,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="player" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="2677">Parameter 'player' of 'Player.sendCachedSelfAudio(Player, string)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setEnable()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="634">'Player.setEnable()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetFlags()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.ToUpper" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="1864">Because the behavior of 'string.ToUpper()' could vary based on the current user's locale settings, replace this call in 'Player.SetFlags()' with a call to 'string.ToUpper(CultureInfo)'. If the result of 'string.ToUpper(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Substitute(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="type" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="709">In member 'Player.Substitute(int)', correct the casing of 'type' in parameter name 'player_type' by changing it to 'Type'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tackle(System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="angle" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="1367">In member 'Player.tackle(float)', correct the casing of 'angle' in parameter name 'power_or_angle' by changing it to 'Angle'.</Issue>
+            </Message>
+            <Message Id="or" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="1367">In member 'Player.tackle(float)', correct the casing of 'or' in parameter name 'power_or_angle' by changing it to 'Or'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Player+Focused" Kind="Class" Accessibility="Private" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Player.cs" Line="2498">'Player.Focused.Focused()' initializes field 'Player.Focused.M_key' of type 'Player' to null. Remove this initialization because it will be done automatically by the runtime.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="RoboCup.Parameters">
+       <Types>
+        <Type Name="HeteroPlayer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.cctor()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="HeteroPlayer.cs" Line="104">'HeteroPlayer.HeteroPlayer()' initializes field 'HeteroPlayer.s_seeded' of type 'bool' to false. Remove this initialization because it will be done automatically by the runtime.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="HeteroPlayer.cs" Line="123">Parameter 'x' of 'HeteroPlayer.HeteroPlayer(object)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#delta(System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="HeteroPlayer.cs" Line="252">The 'this' parameter (or 'Me' in Visual Basic) of 'HeteroPlayer.delta(float, float)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PlayerParam" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Instance" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'PlayerParam.Instance' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ServerParam" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GoalPostRadius" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="ServerParam.cs" Line="71">The 'this' parameter (or 'Me' in Visual Basic) of 'ServerParam.GoalPostRadius' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#init(System.String[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="args" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="ServerParam.cs" Line="756">Parameter 'args' of 'ServerParam.init(string[])' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Instance" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'ServerParam.Instance' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="RoboCup.Referees">
+       <Types>
+        <Type Name="HalffieldGameRef" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Messages>
+          <Message TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+           <Issue Certainty="75" Level="Warning">'HalffieldGameRef' is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(RoboCup.Stadium)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="HalffieldGameRef.cs" Line="78">'HalffieldGameRef.HalffieldGameRef(Stadium)' initializes field 'HalffieldGameRef.M_defense' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="HalffieldGameRef.cs" Line="76">'HalffieldGameRef.HalffieldGameRef(Stadium)' initializes field 'HalffieldGameRef.M_episode' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="HalffieldGameRef.cs" Line="77">'HalffieldGameRef.HalffieldGameRef(Stadium)' initializes field 'HalffieldGameRef.M_offense' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="HalffieldGameRef.cs" Line="79">'HalffieldGameRef.HalffieldGameRef(Stadium)' initializes field 'HalffieldGameRef.M_time' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#closestScore" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'HalffieldGameRef.closestScore' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#episodeEnded" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'HalffieldGameRef.episodeEnded' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#goal" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'HalffieldGameRef.goal' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#M_episode" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'HalffieldGameRef.M_episode' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#timeScore" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'HalffieldGameRef.timeScore' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="KeepawayRef" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(RoboCup.Stadium)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="KeepawayRef.cs" Line="82">'KeepawayRef.KeepawayRef(Stadium)' initializes field 'KeepawayRef.M_episode' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="KeepawayRef.cs" Line="83">'KeepawayRef.KeepawayRef(Stadium)' initializes field 'KeepawayRef.M_keepers' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="KeepawayRef.cs" Line="86">'KeepawayRef.KeepawayRef(Stadium)' initializes field 'KeepawayRef.M_take_time' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="KeepawayRef.cs" Line="84">'KeepawayRef.KeepawayRef(Stadium)' initializes field 'KeepawayRef.M_takers' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="KeepawayRef.cs" Line="85">'KeepawayRef.KeepawayRef(Stadium)' initializes field 'KeepawayRef.M_time' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#M_start_time" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'KeepawayRef.M_start_time' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#M_time" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'KeepawayRef.M_time' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="OffsideRef" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Messages>
+          <Message TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+           <Issue Certainty="75" Level="Warning">'OffsideRef' is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(RoboCup.Stadium)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="OffsideRef.cs" Line="96">'OffsideRef.OffsideRef(Stadium)' initializes field 'OffsideRef.M_after_offside_time' of type 'int' to 0. Remove this initialization because it will be done automatically by the runtime.</Issue>
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="OffsideRef.cs" Line="97">'OffsideRef.OffsideRef(Stadium)' initializes field 'OffsideRef.M_last_kicker' of type 'Player' to null. Remove this initialization because it will be done automatically by the runtime.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setOffsideMark(RoboCup.Objects.Player)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="OffsideRef.cs" Line="226">'OffsideRef.setOffsideMark(Player)' has a cyclomatic complexity of 32. Rewrite or refactor the method to reduce complexity to 25.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Referee" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.cctor()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="CriticalWarning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Referee.cs" Line="54">Initialize all static fields in 'Referee' when those fields are declared and remove the explicit static constructor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#clearPlayersFromBall(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Referee.cs" Line="271">'Referee.clearPlayersFromBall(string)' has a cyclomatic complexity of 32. Rewrite or refactor the method to reduce complexity to 25.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#crossGoalLine(System.String,RoboCup.Geometry.Vector)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ball" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Referee.cs" Line="191">In member 'Referee.crossGoalLine(string, Vector)', correct the casing of 'ball' in parameter name 'prev_ball_pos' by changing it to 'Ball'.</Issue>
+            </Message>
+            <Message Id="pos" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Referee.cs" Line="191">In member 'Referee.crossGoalLine(string, Vector)', correct the casing of 'pos' in parameter name 'prev_ball_pos' by changing it to 'Pos'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fld_l" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'Referee.fld_l' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fld_r" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'Referee.fld_r' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#moveOutOfPenalty(System.String,RoboCup.Geometry.Vector)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="pos" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Referee.cs" Line="420">In member 'Referee.moveOutOfPenalty(string, Vector)', correct the casing of 'pos' in parameter name 'ball_pos' by changing it to 'Pos'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#truncateToPitch(RoboCup.Geometry.Vector)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="pos" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-05-12 17:29:20Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\SoccerServer" File="Referee.cs" Line="402">In member 'Referee.truncateToPitch(Vector)', correct the casing of 'pos' in parameter name 'ball_pos' by changing it to 'Pos'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Assemblies should have valid strong names</Name>
+   <Description>Either the assembly has no strong name, an invalid one, or the strong name is valid only because of the computer configuration. The assembly should not be deployed in this state. The most common causes of this are: 1) The assembly's contents were modified after it was signed. 2) The signing process failed. 3) The assembly was delay-signed. 4) A registry key existed that allowed the check to pass (where it would not have otherwise).</Description>
+   <Resolution Name="NoStrongName">Sign {0} with a strong name key.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182127(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502">
+   <Name>Avoid excessive complexity</Name>
+   <Description>Method implementations that are exceedingly complex increase the challenge of understanding and maintaining code.</Description>
+   <Resolution Name="Default">{0} has a cyclomatic complexity of {1}. Rewrite or refactor the method to reduce complexity to {2}.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182212(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Warning</MessageLevel>
+   <File Name="MaintainabilityRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Avoid uncalled private code</Name>
+   <Description>There is uncalled code that is not externally visible and is not a known runtime entry point. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Resolution Name="Default">{0} appears to have no upstream public or protected callers.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182264(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812">
+   <Name>Avoid uninstantiated internal classes</Name>
+   <Description>An internal class was detected that is apparently never instantiated. This rule does not attempt to detect late-bound creation and will generate false positives if instances of a type are only created in this way (for example, by means of Activator.CreateInstance or by passing the type as an argument to a TypeConverter constructor).</Description>
+   <Resolution Name="Default">{0} is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182265(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823">
+   <Name>Avoid unused private fields</Name>
+   <Description>Private fields were detected that do not appear to be accessed within the assembly. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Resolution Name="Default">It appears that field {0} is never used or is only ever assigned to. Use this field or remove it.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms245042(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806">
+   <Name>Do not ignore method results</Name>
+   <Description>The result of methods that return new instances of strings should be assigned to a variable and subsequently used. If the result of a method that creates a new object, such as String.ToLower(), is not assigned to a variable, the call is wasted.</Description>
+   <Resolution Name="ObjectCreation">{0} creates a new instance of {1} which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182273(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="UsageRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805">
+   <Name>Do not initialize unnecessarily</Name>
+   <Description>Do not make initializations that have already been done by the runtime.</Description>
+   <Resolution Name="Default">{0} initializes field {1} of type {2} to {3}. Remove this initialization because it will be done automatically by the runtime.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182274(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>Identifiers should be cased correctly</Name>
+   <Description>Type, namespace, and member identifiers are Pascal-cased. Parameter identifiers are camel-cased. Two letter acronyms within these identifiers should be upper-cased, for example, use System.IO instead of System.Io. Acronyms of three or more letters should be Pascal-cased, for example, use System.Xml instead of System.XML. The pascal-casing convention capitalizes the first letter of each word, as in BackColor. The camel-casing convention formats the first letter of the first word in lowercase and capitalizes the first letter of all subsequent words, as in backgroundColor. Although it may be common practice for some two letter acronyms to not be fully capitalized, violations of this rule should not be excluded for this reason. For example, 'DbConnection', is common but incorrect; use DBConnection. A violation of this rule might be required for compatibility with existing, non-managed symbol schemes. In general, however, these symbols should not be visible outside the assembly that uses them.</Description>
+   <Resolution Name="Member">Correct the casing of '{0}' in member name {1} by changing it to '{2}'.</Resolution>
+   <Resolution Name="MemberParameter">In member {0}, correct the casing of '{1}' in parameter name {2} by changing it to '{3}'.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182240(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710">
+   <Name>Identifiers should have correct suffix</Name>
+   <Description>Types that extend certain base types have specified name suffixes. Types that extend Attribute, for example, should be suffixed in 'Attribute', as in ObsoleteAttribute. This rules checks types that extend several base types, including Attribute, Exception, EventArgs, IMembershipPermission, Stream, and others.</Description>
+   <Resolution Name="Default">Rename {0} to end in '{1}'.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182244(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810">
+   <Name>Initialize reference type static fields inline</Name>
+   <Description>Static fields should be initialized when declared. Initializing static data in explicit static constructors results in less performant code.</Description>
+   <Resolution Name="Default">Initialize all static fields in {0} when those fields are declared and remove the explicit static constructor.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182275(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">CriticalWarning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208">
+   <Name>Instantiate argument exceptions correctly</Name>
+   <Description>String arguments passed to constructors of ArgumentException and its derived types should be correct. Types derived from ArgumentException have inconsistent constructor overloads with respect to the message and paramName parameters as compared to ArgumentException.</Description>
+   <Resolution Name="NoArguments">Call the {0} constructor that contains a message and/or paramName parameter.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182347(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="UsageRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824">
+   <Name>Mark assemblies with NeutralResourcesLanguageAttribute</Name>
+   <Description>The NeutralResourcesLanguage attribute informs the ResourceManager of the language used to render the neutral culture's resources for an assembly. When looking up resources in the same culture as the neutral resources language, the ResourceManager automatically uses the resources located in the main assembly, instead of searching for a satellite assembly with the current user interface culture for the current thread. This will improve lookup performance for the first resource you load and can reduce your working set.</Description>
+   <Resolution Name="Default">Because assembly {0} contains a ResX-based resource file, mark it with the NeutralResourcesLanguage attribute, specifying the language of the resources within the assembly. This could improve lookup performance the first time a resource is retrieved.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/bb385967(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
+   <Name>Mark members as static</Name>
+   <Description>Methods which do not access instance data or call instance methods can be marked as static (Shared in Visual Basic). After doing so, the compiler will emit non-virtual call sites to these members which will prevent a check at runtime for each call that ensures the current object pointer is non-null. This can result in a measurable performance gain for performance-sensitive code. In some cases, the failure to access the current object instance represents a correctness issue.</Description>
+   <Resolution Name="Default">The 'this' parameter (or 'Me' in Visual Basic) of {0} is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms245046(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211">
+   <Name>Non-constant fields should not be visible</Name>
+   <Description>Static fields should be constant unless you carefully manage access to the field using locks. Using static variables without making them thread safe can compromise execution state. This rule applies to managed code libraries. If the analyzed assembly is an application, it is usually safe to exclude violations of this rule.</Description>
+   <Resolution Name="Default">Consider making {0} non-public or a constant.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182353(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Warning</MessageLevel>
+   <File Name="UsageRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233">
+   <Name>Operations should not overflow</Name>
+   <Description>Arithmetic operations should not be done without first validating the operands to prevent overflow.</Description>
+   <Resolution Name="Default">Correct the potential overflow in the operation '{0}' in {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182354(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="UsageRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="OperatorOverloadsHaveNamedAlternates" Category="Microsoft.Usage" CheckId="CA2225">
+   <Name>Operator overloads have named alternates</Name>
+   <Description>When redefining operators, implement named methods to provide access to the operator functionality from languages that do not support operator overloading. For example, the functionality of the '+' operator should also be accessible using an 'Add' method.</Description>
+   <Resolution Name="Default">Provide a method named '{0}' as a friendly alternate for operator {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182355(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Error</MessageLevel>
+   <File Name="UsageRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="OverrideEqualsAndOperatorEqualsOnValueTypes" Category="Microsoft.Performance" CheckId="CA1815">
+   <Name>Override equals and operator equals on value types</Name>
+   <Description>The default System.ValueType implementation might not perform as well as a custom implementation.</Description>
+   <Resolution Name="Equals">{0} should override Equals.</Resolution>
+   <Resolution Name="op_Equality">{0} should override the equality (==) and inequality (!=) operators.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182276(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801">
+   <Name>Review unused parameters</Name>
+   <Description>Review parameters in non-virtual methods that are not used in the method body to ensure no correctness exists around failure to access them. Unused parameters incur maintenance and performance costs. Sometimes a violation of this rule can point to an implementation bug in the method (i.e. the parameter should actually have been used in the method body). Exclude warnings of this rule if the parameter has to exist because of backward compatibility.</Description>
+   <Resolution Name="Default">Parameter {0} of {1} is never used. Remove the parameter or use it in the method body.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182268(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="UsageRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304">
+   <Name>Specify CultureInfo</Name>
+   <Description>If an overload exists that takes a CultureInfo argument, it should always be called in favor of an overload that does not. The CultureInfo type contains culture-specific information required for performing numeric and string operations, such as casing, formatting, and string comparisons. In scenarios where conversion and parsing behavior should never change between cultures, specify CultureInfo.InvariantCulture, otherwise, specify CultureInfo.CurrentCulture.</Description>
+   <Resolution Name="Default">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182189(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="GlobalizationRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+   <Name>Specify IFormatProvider</Name>
+   <Description>If an overload exists that takes an IFormatProvider argument, it should always be called in favor of an overload that does not. Some methods in the runtime convert a value to or from a string representation and take a string parameter that contains one or more characters, called format specifiers, which indicate how the value is to be converted. If the meaning of the format specifier varies by culture, a formatting object supplies the actual characters used in the string representation. In scenarios where sorting and comparison behavior should never change between cultures, specify CultureInfo.InvariantCulture, otherwise, specify CultureInfo.CurrentCulture.</Description>
+   <Resolution Name="Default">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182190(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="GlobalizationRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820">
+   <Name>Test for empty strings using string length</Name>
+   <Description>To test for empty strings, check if String.Length is equal to zero. Constructs such as "".Equals(someString) and String.Empty.Equals(someString) are less efficient than testing the string length. Replace these with checks for someString.Length == 0.</Description>
+   <Resolution Name="IsNullOrEmpty">Replace the call to {0} in {1} with a call to 'String.IsNullOrEmpty'.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182279(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724">
+   <Name>Type names should not match namespaces</Name>
+   <Description>Identifiers which conflict in whole or in part with namespace names should be avoided. Names that describe the purpose or contents of a type are preferred.</Description>
+   <Resolution Name="System">The type name {0} conflicts in whole or in part with the namespace name '{1}' defined in the .NET Framework. Rename the type to eliminate the conflict.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182257(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726">
+   <Name>Use preferred terms</Name>
+   <Description>Use preferred terms over deprecated alternates.</Description>
+   <Resolution Name="MemberNoAlternate">Replace the term '{0}' in member name {1} with an appropriate alternate or remove it entirely.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182258(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500">
+   <Name>Variable names should not match field names</Name>
+   <Description>Instance field and variable names should not be identical within the same scope.</Description>
+   <Resolution Name="Local">{0}, a variable declared in {1}, has the same name as an instance field on the type. Change the name of one of these items.</Resolution>
+   <Resolution Name="Parameter">{0}, a parameter declared in {1}, has the same name as an instance field on the type. Change the name of one of these items.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182216(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="MaintainabilityRules.dll" Version="9.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keeperType>Normal</keeperType>
+  <fieldX>30</fieldX>
+  <fieldY>30</fieldY>
+  <subX>30</subX>
+  <subY>30</subY>
+  <numK>2</numK>
+  <numT>2</numT>
+  <adjustment>1</adjustment>
+  <seedGenome>true</seedGenome>
+  <seedName>Seed.txt</seedName>
+  <loadPop>false</loadPop>
+  <popLoadName>Pop.txt</popLoadName>
+  <generation>1</generation>
+  <numGenerations>50</numGenerations>
+  <prefix>Test\</prefix>
+  <statsFile>Stats.txt</statsFile>
+  <statsIteration>1</statsIteration>
+  <minTrials>30</minTrials>
+  <maxTrials>100</maxTrials>
+  <genAvg>5</genAvg>
+  <stdDev>0.8</stdDev>
+  <testBest>false</testBest>
+  <testGenome>Gen101best.txt</testGenome>
+  <testAll>false</testAll>
+  <interval>1</interval>
+  <GameType>Halffield</GameType>
+  <MaxWeight>5</MaxWeight>
+  <Normalize>true</Normalize>
+  <ThresholdByDistance>true</ThresholdByDistance>
+  <MaxDistance>1</MaxDistance>
+  <Threshold>0.2</Threshold>
+</ConfigFile>

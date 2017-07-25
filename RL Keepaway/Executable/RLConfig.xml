@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RLConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <num_Keepers>6</num_Keepers>
+  <num_Takers>5</num_Takers>
+  <numFeatures>31</numFeatures>
+  <numActions>6</numActions>
+  <source_Keepers>3</source_Keepers>
+  <source_Takers>2</source_Takers>
+  <numEpisodes>10000</numEpisodes>
+  <transfer>0</transfer>
+  <numTrials>1</numTrials>
+  <learning>1</learning>
+  <visualize>0</visualize>
+  <learningMethod>SARSA</learningMethod>
+  <fieldX>20</fieldX>
+  <fieldY>20</fieldY>
+  <alpha>0.125</alpha>
+  <gamma>0.85</gamma>
+  <lambda>1.0</lambda>
+  <epsilon>0.01</epsilon>
+  <traceability>0.01</traceability>
+  <description>
+    The description
+
+    This method has representation changing from source to target task. Inter-task mapping is used here,
+    implemented as follows: instead of random initialising the weights correcponding to additional state features as done
+    in the previous method, here you check for similarity in the function of each state feature with the state features from the source.
+    Then transfer weights from the source state features to the new state features based on that criteria. (e.g weight of dist(Kb,K3)
+    source from source task can be transfered to both dist(Kb,K3) and dist(Kb,K4) a new state feature in target task).
+    The configuration description code is put on RLGameWorld class file.
+
+    Keepaway Configurations and corresponding State-Action space are as follows:
+    3 vs 2 -> 13 - 3
+    4 vs 3 -> 19 - 4
+    5 vs 3 -> 23 - 5
+    5 vs 4 -> 25 - 5
+    6 vs 4 -> 29 - 6
+    6 vs 5 -> 31 - 6
+
+    Selection of the Method and vsualisation
+    if not using RL method for learning 0, otherwise 1
+    if not showing visualisation 0, otherwise 1
+
+    Field size: 20 x 20
+
+    RL Learning Method:
+    1. SARSA
+    2. Q_Learning
+
+    Reinforcement parameters:
+    alpha is the learning rate parameter - always set to 0 and 1 , determines to what extent the newly acquired information will override
+    the old one (factor 0 will make an agent not learn at all, while that of 1 would make an agent consider only the most recent
+    information)
+    gamma is the discount factor which is reponsible for updating the weight - always set between 0 and 1 (factor of 0 would make the
+    agent consider current rewards, factor of 1 will make it strive for a long-term high reward)
+    epsilon greedy policy that selects a random actions with uniform distribution from a set of actions - always set between 0 and 1 - helps
+    to select between greedy or e-greedy. (0 means greedy thus always selecting an action corresponding to high Q(a,s) - helps exploiting,
+    and 1 means always a random value - helps exploring)
+    lambda is eligibility trace decay parameter, set between 0 and 1. Higher settings leads to longer lasting traces.
+
+
+    Transfer:
+    0 - Without policy transfer
+    1 - With policy transfer
+
+  </description>
+</RLConfig>

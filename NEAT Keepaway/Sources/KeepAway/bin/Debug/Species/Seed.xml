@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NetworkGenome xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="0" Fitness="0" Age="0" Parent1="-1" Parent2="-1" Species="0">
+  <Nodes>
+    <NodeGene Id="0" Type="Bias" Function="Identity" Layer="0" Fixed="false" />
+    <NodeGene Id="1" Type="Input" Function="Identity" Layer="0" Fixed="false" />
+    <NodeGene Id="2" Type="Input" Function="Identity" Layer="0" Fixed="false" />
+    <NodeGene Id="3" Type="Input" Function="Identity" Layer="0" Fixed="false" />
+    <NodeGene Id="4" Type="Input" Function="Identity" Layer="0" Fixed="false" />
+    <NodeGene Id="5" Type="Output" Function="BipolarSigmoid" Layer="4" Fixed="false" />
+    <NodeGene Id="6" Type="Output" Function="BipolarSigmoid" Layer="4" Fixed="false" />
+    <NodeGene Id="7" Type="Hidden" Function="Gaussian" Layer="2" Fixed="false" />
+    <NodeGene Id="8" Type="Hidden" Function="Gaussian" Layer="2" Fixed="false" />
+  </Nodes>
+  <Links>
+    <LinkGene Id="0" Source="0" Target="5" Weight="0" Fixed="false" />
+    <LinkGene Id="1" Source="0" Target="6" Weight="0" Fixed="false" />
+    <LinkGene Id="2" Source="1" Target="5" Weight="0" Fixed="false" />
+    <LinkGene Id="3" Source="1" Target="6" Weight="0" Fixed="false" />
+    <LinkGene Id="4" Source="2" Target="5" Weight="0" Fixed="false" />
+    <LinkGene Id="5" Source="2" Target="6" Weight="0" Fixed="false" />
+    <LinkGene Id="6" Source="3" Target="5" Weight="0" Fixed="false" />
+    <LinkGene Id="7" Source="3" Target="6" Weight="0" Fixed="false" />
+    <LinkGene Id="8" Source="4" Target="5" Weight="0" Fixed="false" />
+    <LinkGene Id="9" Source="4" Target="6" Weight="0" Fixed="false" />
+    <LinkGene Id="10" Source="1" Target="7" Weight="1" Fixed="false" />
+    <LinkGene Id="11" Source="3" Target="7" Weight="-1" Fixed="false" />
+    <LinkGene Id="12" Source="2" Target="8" Weight="1" Fixed="false" />
+    <LinkGene Id="13" Source="4" Target="8" Weight="-1" Fixed="false" />
+    <LinkGene Id="14" Source="7" Target="5" Weight="1" Fixed="false" />
+    <LinkGene Id="15" Source="8" Target="5" Weight="1" Fixed="false" />
+    <LinkGene Id="16" Source="0" Target="7" Weight="0" Fixed="false" />
+    <LinkGene Id="17" Source="0" Target="8" Weight="0" Fixed="false" />
+  </Links>
+</NetworkGenome>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeepawayConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FieldX>20</FieldX>
+  <FieldY>20</FieldY>
+  <SubstrateX>20</SubstrateX>
+  <SubstrateY>20</SubstrateY>
+  <SubstrateStartX>-1</SubstrateStartX>
+  <SubstrateStartY>-1</SubstrateStartY>
+  <SubstrateEndX>1</SubstrateEndX>
+  <SubstrateEndY>1</SubstrateEndY>
+  <NumKeepers>4</NumKeepers>
+  <NumTakers>3</NumTakers>
+  <Scalarizer>0.6</Scalarizer>
+  <Episodes>30</Episodes>
+  <nearestNeighbors>15</nearestNeighbors>
+  <archiveLimit>10</archiveLimit>
+  <archiveSize>1000</archiveSize>
+  <archiveThreshold>0.03</archiveThreshold>
+  <SearchMethod>1</SearchMethod>
+  <Description>
+    There are 5 variants of methods to adapt the evolutionary search :
+    1. Objective-Based Search - uses average hold time in secs over 30 episodes
+    2. Novelty Search - uses behavioral diversity , measured on 3 behavior characterising properties
+    - average number of passes, average dispersion of team members and average distance of ball
+    from center of field of play
+    3. NS-Hybrid (Novelty + Objective-Based) Search
+    4. Genotypic Diversity maintanance Search - It uses compatibility distance measure
+    5. GD-Hybrid (Genotypic Diversity + Objective-Based) Search
+    RealFitness is the average hold time defined per genome (over 30 episodes , i.e 30 trials)
+  </Description>
+</KeepawayConfig>

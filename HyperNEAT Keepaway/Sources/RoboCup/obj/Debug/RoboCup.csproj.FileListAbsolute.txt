@@ -1,0 +1,74 @@
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\bin\Debug\RoboCup#.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\bin\Debug\RoboCup#.pdb
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\obj\Debug\RoboCup.FieldVisualizer.resources
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\obj\Debug\RoboCup.SubstrateVisualizer.resources
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\obj\Debug\RoboCup.csproj.GenerateResource.Cache
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\obj\Debug\RoboCup#.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\obj\Debug\RoboCup#.pdb
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\obj\Debug\RoboCup.ObjectData.resources
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\bin\Debug\RoboCup#.dll.CodeAnalysisLog.xml
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\RoboCup\bin\Debug\RoboCup#.dll.lastcodeanalysissucceeded
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\RoboCup\bin\Debug\RoboCup#.dll
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\RoboCup\bin\Debug\RoboCup#.pdb
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\RoboCup\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\RoboCup\obj\Debug\RoboCup.FieldVisualizer.resources
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\RoboCup\obj\Debug\RoboCup.ObjectData.resources
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\RoboCup\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\RoboCup\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\RoboCup\obj\Debug\RoboCup#.dll
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\RoboCup\obj\Debug\RoboCup#.pdb
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\RoboCup\bin\Debug\RoboCup#.dll
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\RoboCup\bin\Debug\RoboCup#.pdb
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\RoboCup\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\RoboCup\obj\Debug\RoboCup.FieldVisualizer.resources
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\RoboCup\obj\Debug\RoboCup.ObjectData.resources
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\RoboCup\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\RoboCup\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\RoboCup\obj\Debug\RoboCup#.dll
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\RoboCup\obj\Debug\RoboCup#.pdb
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\RoboCup\bin\Debug\RoboCup#.dll
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\RoboCup\bin\Debug\RoboCup#.pdb
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\RoboCup\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup.FieldVisualizer.resources
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup.ObjectData.resources
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\RoboCup\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\RoboCup\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup#.dll
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\HyperNEAT version of Keepaway\RoboCupSharp\Sources\RoboCup\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\HyperNEAT version of Keepaway\RoboCupSharp\Sources\RoboCup\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\HyperNEAT version of Keepaway\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup.FieldVisualizer.resources
+C:\Users\Sabre\Desktop\HyperNEAT version of Keepaway\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup.ObjectData.resources
+C:\Users\Sabre\Desktop\HyperNEAT version of Keepaway\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\HyperNEAT version of Keepaway\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\HyperNEAT version of Keepaway\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\Mandla Research\RoboCupSharp\Sources\RoboCup\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\Mandla Research\RoboCupSharp\Sources\RoboCup\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\Mandla Research\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup.FieldVisualizer.resources
+C:\Users\Sabre\Desktop\Mandla Research\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup.ObjectData.resources
+C:\Users\Sabre\Desktop\Mandla Research\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\Mandla Research\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\Mandla Research\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\HyperNEAT Keepaway with Behavioral Diversity\RoboCupSharp\Sources\RoboCup\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\HyperNEAT Keepaway with Behavioral Diversity\RoboCupSharp\Sources\RoboCup\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\HyperNEAT Keepaway with Behavioral Diversity\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup.FieldVisualizer.resources
+C:\Users\Sabre\Desktop\HyperNEAT Keepaway with Behavioral Diversity\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup.ObjectData.resources
+C:\Users\Sabre\Desktop\HyperNEAT Keepaway with Behavioral Diversity\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\HyperNEAT Keepaway with Behavioral Diversity\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\HyperNEAT Keepaway with Behavioral Diversity\RoboCupSharp\Sources\RoboCup\obj\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\Testing\KeepawaySim\Sources\RoboCup\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\Testing\KeepawaySim\Sources\RoboCup\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\Testing\KeepawaySim\Sources\RoboCup\obj\Debug\RoboCup.FieldVisualizer.resources
+C:\Users\Sabre\Desktop\Testing\KeepawaySim\Sources\RoboCup\obj\Debug\RoboCup.ObjectData.resources
+C:\Users\Sabre\Desktop\Testing\KeepawaySim\Sources\RoboCup\obj\Debug\RoboCup.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\Testing\KeepawaySim\Sources\RoboCup\obj\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\Testing\KeepawaySim\Sources\RoboCup\obj\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\HyperNEAT Keepaway\KeepawayVersion2\Sources\RoboCup\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\HyperNEAT Keepaway\KeepawayVersion2\Sources\RoboCup\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\HyperNEAT Keepaway\KeepawayVersion2\Sources\RoboCup\obj\Debug\RoboCup.csprojResolveAssemblyReference.cache
+C:\Users\Sabre\Desktop\Keepaway Experiments\HyperNEAT Keepaway\KeepawayVersion2\Sources\RoboCup\obj\Debug\RoboCup.FieldVisualizer.resources
+C:\Users\Sabre\Desktop\Keepaway Experiments\HyperNEAT Keepaway\KeepawayVersion2\Sources\RoboCup\obj\Debug\RoboCup.ObjectData.resources
+C:\Users\Sabre\Desktop\Keepaway Experiments\HyperNEAT Keepaway\KeepawayVersion2\Sources\RoboCup\obj\Debug\RoboCup.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\Keepaway Experiments\HyperNEAT Keepaway\KeepawayVersion2\Sources\RoboCup\obj\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\HyperNEAT Keepaway\KeepawayVersion2\Sources\RoboCup\obj\Debug\RoboCup#.pdb

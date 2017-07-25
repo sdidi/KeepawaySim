@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Reproduction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Elitism>0.1</Elitism>
+  <AsexualProbability>0.75</AsexualProbability>
+  <SelectFitterSpecies>0.95</SelectFitterSpecies>
+  <SelectFitterGenome>0.95</SelectFitterGenome>
+  <SelectFitterGene>0.95</SelectFitterGene>
+  <RecombineExcessFromLessFit>0.1</RecombineExcessFromLessFit>
+  <SpeciesStagnation>10</SpeciesStagnation>
+</Reproduction>

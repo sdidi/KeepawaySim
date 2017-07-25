@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeepawayConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FieldX>20</FieldX>
+  <FieldY>20</FieldY>
+  <SubstrateX>20</SubstrateX>
+  <SubstrateY>20</SubstrateY>
+  <SubstrateStartX>-1</SubstrateStartX>
+  <SubstrateStartY>-1</SubstrateStartY>
+  <SubstrateEndX>1</SubstrateEndX>
+  <SubstrateEndY>1</SubstrateEndY>
+  <NumKeepers>4</NumKeepers>
+  <NumTakers>3</NumTakers>
+</KeepawayConfig>

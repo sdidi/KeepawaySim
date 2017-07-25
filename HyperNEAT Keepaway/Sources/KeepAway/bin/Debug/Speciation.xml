@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Speciation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weight>1</Weight>
+  <Disjoint>1</Disjoint>
+  <Function>2</Function>
+  <InitialThreshold>100</InitialThreshold>
+  <SpeciesCount>8</SpeciesCount>
+  <MarkingAge>0</MarkingAge>
+  <RepresentitiveSize>1</RepresentitiveSize>
+</Speciation>

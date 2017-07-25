@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <PopulationSize>150</PopulationSize>
+  <SpecieCount>10</SpecieCount>
+  <Transfer>true</Transfer>
+  <Seed>true</Seed>
+  <Activation>
+    <Scheme>FixedIters</Scheme>
+    <Iters>1</Iters>
+  </Activation>
+  <ComplexityRegulationStrategy>Absolute</ComplexityRegulationStrategy>
+  <ComplexityThreshold>50</ComplexityThreshold>
+  <TrialsPerEvaluation>5</TrialsPerEvaluation>
+  <GridSize>20</GridSize>
+  <Description>
+    Transfer - If 'true' means reuse the population of previously trained policies, 
+               provided in the main folder as Population.xml file. If 'false' start 
+               training from scratch by generating a new population with random weights.
+    Seed - If 'true'means seed the initial population with the best genome obtained from 
+           previous training. File used is Champ.xml to be placed in the main folder.             
+  </Description>
+</Config>

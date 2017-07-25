@@ -1,0 +1,367 @@
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\Keepaway.exe
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\Keepaway.pdb
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\RoboCup#.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\RoboCup#.pdb
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\obj\Debug\Keepaway.csproj.GenerateResource.Cache
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\obj\Debug\Keepaway.exe
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\obj\Debug\Keepaway.pdb
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\NEAT.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\Microsoft.GLEE.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\ZedGraph.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\Microsoft.Glee.GraphViewerGDI.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\Microsoft.GLEE.Drawing.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\NEATVisualizer.pdb
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\ZedGraph.xml
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\NEAT.pdb
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\NEATVisualizer.dll
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\Keepaway.exe.manifest
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\bin\Debug\Keepaway.application
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\obj\Debug\Keepaway.exe.manifest
+C:\Users\Phillip.Cabal\Desktop\RoboCup#\Keepaway\obj\Debug\Keepaway.application
+C:\Users\Phillip.Cabal\Desktop\New Folder\RoboCup#\KeepAway\obj\Debug\Keepaway.exe
+C:\Users\Phillip.Cabal\Desktop\New Folder\RoboCup#\KeepAway\obj\Debug\Keepaway.pdb
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\bin\Debug\Keepaway.application
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\bin\Debug\Keepaway.exe
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\bin\Debug\Keepaway.pdb
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\bin\Debug\BasicPlayer.dll
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\bin\Debug\RoboCup#.dll
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\bin\Debug\BasicPlayer.pdb
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\obj\Debug\Keepaway.application
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\obj\Debug\Keepaway.exe
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCup#\KeepAway\obj\Debug\Keepaway.pdb
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\obj\Debug\Keepaway.exe
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\bin\Debug\Keepaway.application
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\bin\Debug\Keepaway.exe
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\bin\Debug\Keepaway.pdb
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\bin\Debug\RoboCup#.dll
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\obj\Debug\Keepaway.application
+C:\Documents and Settings\Phillip Verbancsics\Desktop\RoboCupSharp\KeepAway\obj\Debug\Keepaway.pdb
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.application
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.exe
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.pdb
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\bin\Debug\RoboCup#.dll
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\bin\Debug\Microsoft.Glee.GraphViewerGDI.dll
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\bin\Debug\ZedGraph.dll
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\bin\Debug\Microsoft.GLEE.Drawing.dll
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\bin\Debug\Microsoft.GLEE.dll
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\bin\Debug\NEAT.pdb
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\bin\Debug\NEATVisualizer.pdb
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\bin\Debug\ZedGraph.xml
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.application
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.exe
+C:\Documents and Settings\Phillip Verbancsics\My Documents\Downloads\RoboCupSharp\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\log4net.dll
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\Microsoft.Glee.GraphViewerGDI.dll
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\ZedGraph.dll
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\Microsoft.GLEE.Drawing.dll
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\Microsoft.GLEE.dll
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\log4net.xml
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\NEAT.pdb
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\NEATVisualizer.pdb
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\bin\Debug\ZedGraph.xml
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\obj\Debug\Keepaway.csprojResolveAssemblyReference.cache
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\obj\Debug\Keepaway.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\obj\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\obj\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\C# NEAT Algorithm and Project Back up\RoboCupSharp Version 01042015\Sources\KeepAway\obj\Debug\Keepaway.pdb
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.application
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.exe
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.pdb
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\log4net.dll
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Microsoft.GLEE.dll
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Microsoft.GLEE.Drawing.dll
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Microsoft.Glee.GraphViewerGDI.dll
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\RoboCup#.dll
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\ZedGraph.dll
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\log4net.xml
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.application
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.exe
+C:\Users\didis\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\log4net.dll
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Microsoft.GLEE.dll
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Microsoft.GLEE.Drawing.dll
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\Microsoft.Glee.GraphViewerGDI.dll
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\ZedGraph.dll
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\bin\Debug\log4net.xml
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.csprojResolveAssemblyReference.cache
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\SHARPNEAT\RoboCupSharp\Sources\KeepAway\obj\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\bin\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\bin\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\bin\Debug\log4net.dll
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\bin\Debug\Microsoft.GLEE.dll
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\bin\Debug\Microsoft.GLEE.Drawing.dll
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\bin\Debug\Microsoft.Glee.GraphViewerGDI.dll
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\bin\Debug\ZedGraph.dll
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\bin\Debug\log4net.xml
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\obj\Debug\Keepaway.csprojResolveAssemblyReference.cache
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\obj\Debug\Keepaway.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\obj\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\obj\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\Keep away Experiments\NEAT Keepaway\Sources\KeepAway\obj\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\bin\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\bin\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\bin\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\bin\Debug\log4net.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\bin\Debug\Microsoft.GLEE.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\bin\Debug\Microsoft.GLEE.Drawing.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\bin\Debug\Microsoft.Glee.GraphViewerGDI.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\bin\Debug\ZedGraph.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\bin\Debug\log4net.xml
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\obj\Debug\Keepaway.csprojResolveAssemblyReference.cache
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\obj\Debug\Keepaway.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\obj\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\obj\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEATKeepaway\Sources\KeepAway\obj\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\bin\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\bin\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\bin\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\bin\Debug\Microsoft.GLEE.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\bin\Debug\Microsoft.GLEE.Drawing.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\bin\Debug\Microsoft.Glee.GraphViewerGDI.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\bin\Debug\ZedGraph.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\bin\Debug\log4net.xml
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\obj\Debug\Keepaway.csprojResolveAssemblyReference.cache
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\obj\Debug\Keepaway.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\obj\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\obj\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\KeepawayExperiments\Backup of NEATKeepaway\NEATKeepaway\Sources\KeepAway\obj\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\bin\Debug\log4net.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Microsoft.GLEE.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Microsoft.GLEE.Drawing.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Microsoft.Glee.GraphViewerGDI.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\bin\Debug\ZedGraph.dll
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\bin\Debug\log4net.xml
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.csprojResolveAssemblyReference.cache
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\KeepawayExperiments\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\ZedGraph.dll
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\log4net.xml
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.csprojResolveAssemblyReference.cache
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\log4net.dll
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\xor.config.xml
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\log4net.properties
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatConsole.exe
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.dll
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatDomains.dll
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.dll
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatConsole.pdb
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.pdb
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.xml
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatDomains.pdb
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatDomains.xml
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.pdb
+C:\Users\Sabre\Desktop\NEAT Keepaway\NEAT Trial\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\xor.config.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\log4net.properties
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\log4net.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatConsole.exe
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\ZedGraph.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatDomains.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatConsole.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\log4net.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatDomains.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatDomains.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.csprojResolveAssemblyReference.cache
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway Fitness-Based Version\NEAT  Keepaway\Sources\KeepAway\obj\Debug\Keepaway.Visualizers.resources
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.csprojResolveAssemblyReference.cache
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.Visualizers.resources
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\log4net.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\ZedGraph.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\log4net.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT TEST\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\log4net.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\ZedGraph.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\log4net.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.csprojResolveAssemblyReference.cache
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.Visualizers.resources
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.config
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\Keepaway.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\log4net.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\RoboCup#.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\ZedGraph.dll
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatLib.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\RoboCup#.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\log4net.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.pdb
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\bin\Debug\SharpNeatViewLib.xml
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.csprojResolveAssemblyReference.cache
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.Properties.Resources.resources
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.Visualizers.resources
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.csproj.GenerateResource.Cache
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.exe.manifest
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.application
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.exe
+C:\Users\Sabre\Desktop\Keepaway Experiments\NEAT Keepaway2\Keepaway\Sources\KeepAway\obj\Debug\Keepaway.pdb

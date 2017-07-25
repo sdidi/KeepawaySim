@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Saving xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Champions save="true" path="Champs\" inteval="1" />
+  <Populations save="true" path="Populations\" inteval="1" />
+  <Species save="false" path="Species\" inteval="5" />
+  <ChampionStatistics save="true" path="Champs\" inteval="1" />
+  <PopulationStatistics save="false" path="Populations\" inteval="10" />
+  <SpeciesStatistics save="true" path="Species\" inteval="10" />
+</Saving>

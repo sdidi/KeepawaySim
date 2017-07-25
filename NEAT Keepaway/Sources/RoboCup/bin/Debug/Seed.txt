@@ -1,0 +1,22 @@
+<genome id="14" species-id="0" age="0" fitness="9.2450" activation-fn-id="CPPNActivation">
+  <neurons>
+    <neuron id="0" type="bias" activation="Identity;" layer="0" fixed="false"/>
+    <neuron id="1" type="in" activation="Identity;" layer="0" fixed="false"/>
+    <neuron id="2" type="in" activation="Identity;" layer="0" fixed="false"/>
+    <neuron id="3" type="in" activation="Identity;" layer="0" fixed="false"/>
+    <neuron id="4" type="in" activation="Identity;" layer="0" fixed="false"/>
+    <neuron id="5" type="out" activation="BipolarSigmoid;" layer="4000" fixed="false"/>
+    <neuron id="6" type="out" activation="BipolarSigmoid;" layer="4000" fixed="false"/>
+    <neuron id="7" type="hid" activation="Gaussian;" layer="2000" fixed="false"/>
+    <neuron id="8" type="hid" activation="Gaussian;" layer="2000" fixed="false"/>
+  </neurons>
+  <connections>
+    <connection innov-id="9" src-id="1" tgt-id="8" weight="1" fixed="false"/>
+    <connection innov-id="10" src-id="3" tgt-id="8" weight="-1" fixed="false"/>
+    <connection innov-id="11" src-id="2" tgt-id="7" weight="1" fixed="false"/>
+    <connection innov-id="12" src-id="4" tgt-id="7" weight="-1" fixed="false"/>
+    <connection innov-id="13" src-id="8" tgt-id="5" weight="1" fixed="false"/>
+    <connection innov-id="14" src-id="7" tgt-id="5" weight="1" fixed="false"/>
+    <connection innov-id="15" src-id="0" tgt-id="5" weight="1" fixed="false"/>
+  </connections>
+</genome>
